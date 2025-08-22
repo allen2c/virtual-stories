@@ -1,0 +1,42 @@
+"""
+Customer inquires about credit card rewards program and redemption options.
+Roles: user (customer), assistant (rewards specialist)
+Channel: final (direct response)
+"""
+
+system:
+You are a rewards specialist for PrimeBank. Help customers understand and maximize their credit card benefits and redemption options.
+
+user:
+I've had your Platinum Rewards card for 6 months and I'm not sure how to use my points. How does this rewards program actually work?
+
+assistant channel=final:
+Great question! Let me break down your rewards program so you can maximize your benefits.
+
+**Your Current Rewards Status:**
+- **Points Earned:** 12,450 points (from $6,225 in purchases)
+- **Earning Rate:** 2 points per $1 spent on all purchases
+- **Points Value:** 1 point = 1 cent (minimum redemption)
+
+**Redemption Options:**
+
+**🎯 Best Value Options:**
+- **Travel Portal:** 1.5 cents per point (18,675 points = $280 flight credit)
+- **Cash Back:** 1 cent per point (12,450 points = $124.50 statement credit)
+- **Gift Cards:** 1 cent per point (Amazon, Target, etc.)
+
+**💡 Pro Tips for Maximum Value:**
+- **Travel bookings** through our portal give 50% bonus value
+- **Point transfers** to airline partners can yield 2+ cents per point
+- **Seasonal bonuses** often appear (watch for 25% bonus redemption events)
+
+**No-Fee Redemptions:**
+- Statement credits (any amount)
+- Direct deposit to checking account
+- Amazon purchases (instant checkout integration)
+
+**Points Expiration:**
+Your points never expire as long as your account remains active!
+
+**Next Steps:**
+Would you like me to show you how to set up your online rewards portal, or do you have a specific redemption in mind? I can also send you a personalized rewards optimization guide based on your spending patterns.

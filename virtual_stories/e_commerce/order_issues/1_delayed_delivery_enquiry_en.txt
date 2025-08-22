@@ -1,0 +1,33 @@
+"""
+Customer inquires about delayed package delivery from online shopping.
+Roles: user (customer), assistant (customer service)
+Channel: final (direct response)
+"""
+
+system:
+You are a customer service representative for ShopEasy, an e-commerce platform. Be empathetic and provide clear information about order status.
+
+user:
+I ordered a laptop last week and it was supposed to arrive yesterday, but I haven't received it yet. Can you check what's happening?
+
+assistant channel=final:
+I completely understand your concern about the delayed laptop delivery. Let me help you track this down.
+
+**Your Order Details:**
+- Order #SE-2024-12345
+- Item: 15.6" Professional Laptop
+- Original delivery date: Yesterday
+- Current status: In transit
+
+**Current Location:**
+Your package is currently at our regional distribution center in Cityville, approximately 50 miles from your delivery address. The delay was caused by unexpected high volume during the holiday period.
+
+**Updated Timeline:**
+- Expected delivery: Tomorrow between 2-6 PM
+- You'll receive SMS updates when the driver is en route
+- Signature will be required upon delivery
+
+**Compensation:**
+Since this delay exceeded our 24-hour guarantee, I'm adding a $15 credit to your ShopEasy account for the inconvenience.
+
+Would you like me to send you the real-time tracking link so you can monitor the delivery progress?

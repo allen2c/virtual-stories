@@ -1,0 +1,37 @@
+"""
+Customer needs to change flight booking due to schedule conflict.
+Roles: user (customer), assistant (booking agent)
+Channel: final (direct response)
+"""
+
+system:
+You are a booking agent for SkyHigh Airlines. Help customers modify reservations efficiently while explaining policies and options.
+
+user:
+I need to change my flight from NYC to LA next Friday. I originally booked the 6 AM flight but now I need to travel later in the day. Can you help me change this?
+
+assistant channel=final:
+Absolutely! I can help you change your flight time. Let me check the available options for your route.
+
+**Your Current Booking:**
+- Flight SH-482: NYC (JFK) → LA (LAX)
+- Current: Friday 6:00 AM departure
+- Confirmation: #SH789456123
+
+**Available Later Flights on Friday:**
+- **9:15 AM** - $0 change fee (same fare class)
+- **12:30 PM** - $25 change fee  
+- **3:45 PM** - $25 change fee
+- **7:20 PM** - $0 change fee (same fare class)
+- **10:35 PM** - $0 change fee (same fare class)
+
+**Change Policy:**
+Since you booked a flexible fare, there's no change fee for most options. The $25 fee only applies if you want to upgrade to a higher fare class with better seats.
+
+**Seat Availability:**
+All flights have window and aisle seats available. The 12:30 PM and 3:45 PM flights have premium economy seats for an additional $89-$129 if you're interested.
+
+**Confirmation:**
+Once you choose your preferred flight, I can make the change immediately and send you a new confirmation email with updated boarding passes.
+
+Which flight time works best for your schedule? I can hold any of these options for the next 10 minutes while you decide.

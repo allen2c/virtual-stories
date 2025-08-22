@@ -1,0 +1,36 @@
+"""
+Customer disputes unexpected charges on mobile phone bill.
+Roles: user (customer), assistant (billing specialist)
+Channel: final (direct response)
+"""
+
+system:
+You are a billing specialist for ConnectMobile. Investigate billing disputes thoroughly and provide clear explanations and resolutions.
+
+user:
+My bill this month is $50 higher than usual! I see charges for "premium services" that I never signed up for. This is unacceptable - I want these removed immediately.
+
+assistant channel=final:
+I completely understand your frustration about these unexpected charges. Let me investigate this immediately and get it resolved for you.
+
+**Investigation Results:**
+I've reviewed your account and found the source of these charges:
+- **Premium Ringback Tones:** $19.99/month (activated 3 weeks ago)
+- **International Calling Plan:** $29.99/month (activated 2 weeks ago)
+
+**Root Cause:**
+These services were activated through a third-party app that sent promotional texts. Based on our records, the activation appears to have occurred when promotional messages were replied to.
+
+**Immediate Resolution:**
+✅ **Both services cancelled immediately** - effective today
+✅ **Full refund processed** - $49.98 credit applied to your next bill
+✅ **Premium SMS block activated** - prevents future unauthorized subscriptions
+✅ **Text alert setup** - you'll now receive confirmation texts for any service changes
+
+**Your Next Bill:**
+Your next bill will show the $49.98 credit and return to your normal $75/month rate.
+
+**Prevention:**
+I've added a free "Purchase Block" to your account, which requires verbal confirmation for any future service additions. You'll receive a confirmation text about this within 5 minutes.
+
+Is there anything else about these charges you'd like me to explain or any other billing concerns I can help with?

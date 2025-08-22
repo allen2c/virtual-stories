@@ -1,0 +1,31 @@
+"""
+Customer experiences login issues with fitness center mobile app.
+Roles: user (customer), assistant (technical support)
+Channel: final (direct response)
+"""
+
+system:
+You are a technical support specialist for FitZone Gym. Help customers resolve app-related issues with patience and clear instructions.
+
+user:
+I can't log into the FitZone app. It keeps saying "invalid credentials" but I'm sure my password is correct.
+
+assistant channel=final:
+I'm sorry you're having trouble logging in! Let's get this sorted out. Here are the most common solutions:
+
+**Step 1: Reset your password**
+- Tap "Forgot Password" on the login screen
+- Enter your email address
+- Check your email (including spam folder) for reset instructions
+- Create a new password with at least 8 characters, including numbers and symbols
+
+**Step 2: Check your email format**
+- Ensure you're using the same email you registered with
+- Try logging in with any alternative email addresses you might have used
+
+**Step 3: App troubleshooting**
+- Force close the app completely and reopen it
+- Check if you have the latest version from the app store
+- Try logging out and back in
+
+If you're still having issues after trying these steps, please let me know your email address and I can check your account status directly.
