@@ -7,20 +7,20 @@ dependencies = [
   "pydantic (>=2)",
   "str-or-none",
 ]
-description = "AllenChou's Python template."
+description = "Test to write virtual stories from configure."
 license = { text = "MIT" }
-name = "ac-py-template"
+name = "virtual-stories"
 readme = "README.md"
 requires-python = ">=3.11,<4"
 version = "0.1.0"
 
 [project.urls]
-Homepage = "https://github.com/allen2c/ac-py-template"
-"PyPI" = "https://pypi.org/project/ac-py-template/"
-Repository = "https://github.com/allen2c/ac-py-template"
+Homepage = "https://github.com/allen2c/virtual-stories"
+"PyPI" = "https://pypi.org/project/virtual-stories/"
+Repository = "https://github.com/allen2c/virtual-stories"
 
 [tool.poetry]
-packages = [{ include = "ac_py_template" }]
+packages = [{ include = "virtual_stories" }]
 
 [tool.poetry.extras]
 all = []
