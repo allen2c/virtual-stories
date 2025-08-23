@@ -12,14 +12,34 @@ The directory structure of the virtual stories is as follows: `virtual_stories/{
 - `{DIALOGUE_NAME}`: A brief, descriptive name for the dialogue that follows Python variable naming conventions (lowercase with underscores, no special characters or spaces).
 - `{LANGUAGE_CODE}`: The ISO language code with hyphens replaced by underscores (e.g., "zh_CN" for Chinese Simplified, "en" for English, "ja" for Japanese).
 
-Dialogue file example:
+Dialogue file example ("/`" is escaped from markdown reader here, in real file, no need to escape):
 
 ```plaintext
 """
-This is a docstring section.
+This is a docstring metadata section.
 You can write dialogue description here.
-Allowable roles: `user`, `assistant`, `system`, `developer`, `tool`
-Valid channels: analysis, commentary, final. Channel must be included for every message.
+
+ROLES: user (short description of the user), assistant (short description of the assistant)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+/`/`/`json
+[
+  {
+    "name": "get_current_weather",
+    "description": "Get current weather for a location.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "location": { "type": "string", "description": "City and state" },
+        "unit": { "type": "string", "enum": ["celsius", "fahrenheit"] }
+      },
+      "required": ["location"]
+    },
+    "strict": true
+  }
+]
+/`/`/`
 """
 
 system:
@@ -45,6 +65,71 @@ The tool provided the weather data for Boston: 22 degrees Celsius and partly clo
 
 assistant channel=final:
 The current weather in Boston is 22°C and partly cloudy. 🌤️
+```
+
+## Format Guidelines
+
+- The docstring at the top must define:
+    - ROLES: succinct user/assistant descriptions
+    - CHANNELS: exactly one of `analysis`, `commentary`, `final` per assistant message
+    - TOOLS: a JSON code block with an array of tool definitions following the Python OpenAI SDK `FunctionDefinition` shape. The `parameters` object uses OpenAPI JSON Schema.
+- Tool calls occur only in `assistant channel=commentary` lines, using JSON on the next line.
+- Tool results are emitted as `tool.<name> channel=commentary to=assistant:` followed by a single-line JSON object.
+- Use `assistant channel=analysis` for private reasoning and planning. Keep it concise.
+- Use `assistant channel=final` for the user-facing reply only.
+
+### Automotive example (abridged)
+
+"/`" is escaped from markdown reader here.
+
+```plaintext
+"""
+Customer requests warranty repair for vehicle making unusual noises.
+
+ROLES: user (customer describing brake grinding on a 2023 Honda Accord), assistant (service advisor arranging warranty service and logistics)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+
+TOOLS:
+/`/`/`json
+[
+  { "name": "verify_warranty_status", "description": "Verify warranty", "parameters": {"type":"object","properties":{"vin":{"type":"string"},"as_of_date":{"type":"string","format":"date"}},"required":["vin","as_of_date" ]}, "strict": true },
+  { "name": "get_service_appointments", "description": "Find appointment slots", "parameters": {"type":"object","properties":{"location_id":{"type":"string"},"service_type":{"type":"string"},"start_date":{"type":"string","format":"date"},"end_date":{"type":"string","format":"date"}},"required":["location_id","service_type","start_date","end_date"]}, "strict": true }
+]
+/`/`/`
+"""
+
+system:
+You are a service advisor at AutoCare dealership.
+
+user:
+My 2023 Honda Accord is making a grinding noise when I brake. It's under warranty—can you help?
+
+assistant channel=analysis:
+Ask for VIN and contact; then verify warranty and fetch slots.
+
+assistant channel=final:
+I'm sorry about the grinding noise—we'll get this handled. Could you share your VIN, mileage, preferred time, and phone number?
+
+user:
+VIN 1HG..., ~18,200 miles, tomorrow morning, +1555...
+
+assistant channel=commentary to=tool.verify_warranty_status:
+{"vin":"1HG...","as_of_date":"2025-08-23"}
+
+tool.verify_warranty_status channel=commentary to=assistant:
+{"status":"active"}
+
+assistant channel=commentary to=tool.get_service_appointments:
+{"location_id":"autocare_sfo_01","service_type":"warranty_repair","start_date":"2025-08-23","end_date":"2025-08-24"}
+
+tool.get_service_appointments channel=commentary to=assistant:
+{"slots":[{"slot_id":"slot_2025-08-23_08:00"}]}
+
+assistant channel=analysis:
+Choose 8:00 AM slot, then confirm with the user.
+
+assistant channel=final:
+Great news—warranty is active, and I can hold the 8:00 AM slot tomorrow. Would you like me to book it and text a confirmation?
 ```
 
 ## Features
