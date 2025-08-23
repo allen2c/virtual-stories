@@ -2,11 +2,12 @@
 authors = [{ name = "Allen Chou", email = "f1470891079@gmail.com" }]
 dependencies = [
   "dictpress (>=0.3.0)",
-  "google_language_support (>=0.2.0,<1.0.0)",
+  "google-language-support (>=0.2.0,<1.0.0)",
   "openai (>=1,<2)",
   "openai-agents (>=0.1.0,<1.0.0)",
   "pydantic (>=2)",
   "str-or-none",
+  "universal-message (>=0.3.0,<1.0.0)",
 ]
 description = "Test to write virtual stories from configure."
 license = { text = "MIT" }
