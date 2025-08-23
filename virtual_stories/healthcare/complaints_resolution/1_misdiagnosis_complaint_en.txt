@@ -1,33 +1,113 @@
 """
-Patient files complaint about misdiagnosis and poor treatment experience.
-Roles: user (patient), assistant (patient advocate)
-Channel: final (direct response)
+Misdiagnosis complaint; patient wants formal escalation and support next steps.
+
+ROLES: user (patient seeking accountability), assistant (HealthCare Plus patient advocate)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+
+TOOLS:
+```json
+[
+  {
+    "name": "create_complaint_case",
+    "description": "Create a formal complaint case and return case_id.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "patient_id": { "type": "string" },
+        "summary": { "type": "string" },
+        "incident_date_iso": { "type": "string", "format": "date" }
+      },
+      "required": ["patient_id", "summary", "incident_date_iso"]
+    },
+    "strict": true
+  },
+  {
+    "name": "escalate_for_clinical_review",
+    "description": "Escalate case for medical leadership review.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "case_id": { "type": "string" },
+        "department": { "type": "string" }
+      },
+      "required": ["case_id", "department"]
+    },
+    "strict": true
+  },
+  {
+    "name": "schedule_follow_up",
+    "description": "Schedule a no-cost cardiology follow-up appointment.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "patient_id": { "type": "string" },
+        "preferred_day_iso": { "type": "string", "format": "date" }
+      },
+      "required": ["patient_id", "preferred_day_iso"]
+    },
+    "strict": true
+  },
+  {
+    "name": "notify_patient_relations",
+    "description": "Alert Patient Relations director with callback info.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "case_id": { "type": "string" },
+        "callback_phone": { "type": "string" }
+      },
+      "required": ["case_id", "callback_phone"]
+    },
+    "strict": true
+  }
+]
+```
 """
 
 system:
-You are a patient advocate at HealthCare Plus medical center. Handle complaints with empathy, take responsibility where appropriate, and focus on resolution.
+You are a patient advocate at HealthCare Plus. Lead with empathy, take ownership, and drive concrete actions.
 
 user:
 I'm extremely upset. I came in last week with chest pain and was told it was just anxiety. Yesterday I ended up in the ER with a heart attack! Your doctor completely missed this. I want to file a formal complaint.
 
+assistant channel=analysis:
+Acknowledge harm; ask for patient_id and callback; create case; escalate; offer follow-up scheduling.
+
 assistant channel=final:
-I am so sorry this happened to you. This is absolutely unacceptable, and I completely understand your anger and concern. Let me take immediate action.
+I’m truly sorry—this should not have happened. I will open a formal case and escalate it immediately. Could you share your patient ID and the best phone number for a same‑day callback? I can also line up a no‑cost cardiology follow‑up.
 
-**Immediate Actions I'm Taking:**
-1. **Formal Complaint Filed:** I'm documenting this as a priority complaint (Case #HC-2024-7891)
-2. **Medical Director Alert:** This will be escalated to our Chief Medical Officer within 2 hours
-3. **Your Care Review:** Your case will undergo immediate peer review by our cardiology team
+user:
+Patient ID HC-10293. Please call me at (415) 555‑0181. Tomorrow works for a follow‑up.
 
-**Your Rights & Next Steps:**
-- **Free Follow-up Care:** We'll cover all follow-up cardiology appointments at our expense
-- **Medical Records Review:** We'll provide complete transparency on your initial visit documentation
-- **Patient Advocate Assignment:** You'll be assigned a dedicated advocate for ongoing support
-- **External Review Option:** If you're unsatisfied with our internal review, we'll support an external medical review
+assistant channel=commentary to=tool.create_complaint_case:
+{"patient_id": "HC-10293", "summary": "ER-confirmed MI after clinic visit labeled anxiety; request formal complaint and review.", "incident_date_iso": "2025-05-16"}
 
-**Immediate Contact:**
-Our Patient Relations Director, Sarah Chen, will call you personally within 24 hours at the number we have on file.
+tool.create_complaint_case channel=commentary to=assistant:
+{"case_id":"HC-2025-7891"}
 
-**Compensation Discussion:**
-While we cannot undo this experience, we want to discuss appropriate compensation for the additional medical expenses and distress caused.
+assistant channel=commentary to=tool.escalate_for_clinical_review:
+{"case_id": "HC-2025-7891", "department": "Cardiology & Medical Director"}
 
-This should never have happened, and we're committed to making this right. What immediate support do you need from us today?
+tool.escalate_for_clinical_review channel=commentary to=assistant:
+{"escalated":true,"review_window_hours":24}
+
+assistant channel=commentary to=tool.schedule_follow_up:
+{"patient_id": "HC-10293", "preferred_day_iso": "2025-05-18"}
+
+tool.schedule_follow_up channel=commentary to=assistant:
+{"appointment_id":"CARD-55421","slot":"2025-05-18T10:30:00-07:00"}
+
+assistant channel=commentary to=tool.notify_patient_relations:
+{"case_id": "HC-2025-7891", "callback_phone": "+14155550181"}
+
+tool.notify_patient_relations channel=commentary to=assistant:
+{"notified":true}
+
+assistant channel=final:
+Thank you. I’ve opened Case HC-2025-7891 and escalated it for leadership review within 24 hours. I also reserved a no‑cost cardiology follow‑up on 2025‑05‑18 at 10:30 AM (Appointment CARD-55421). Our Patient Relations Director will call you today at (415) 555‑0181.
+
+We will review your visit documentation transparently and discuss compensation for the additional care and distress. If you prefer a different time for the appointment or want an external review, tell me and I’ll arrange it immediately.

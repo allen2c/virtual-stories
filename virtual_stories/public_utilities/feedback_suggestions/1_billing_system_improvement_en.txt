@@ -1,41 +1,78 @@
 """
-Customer provides feedback on confusing utility billing system and suggests improvements.
-Roles: user (customer), assistant (customer experience specialist)
-Channel: final (direct response)
+Customer feedback: usage graphs unclear; wants simpler time-of-use savings view.
+
+ROLES: user (CityPower customer giving feedback), assistant (customer experience specialist)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+
+TOOLS:
+```json
+[
+  {
+    "name": "fetch_usage_summary",
+    "description": "Fetch last-month kWh, cost, and time-of-use breakdown for an account.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "account_id": { "type": "string" }
+      },
+      "required": ["account_id"]
+    },
+    "strict": true
+  },
+  {
+    "name": "enroll_beta_test",
+    "description": "Enroll a customer in the new bill design beta and schedule a feedback session.",
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "account_id": { "type": "string" },
+        "contact_method": { "type": "string", "enum": ["email", "sms"] }
+      },
+      "required": ["account_id", "contact_method"]
+    },
+    "strict": true
+  }
+]
+```
 """
 
 system:
-You are a customer experience specialist for CityPower utilities. Welcome constructive feedback and explain how customer suggestions are implemented.
+You are a customer experience specialist for CityPower. Be appreciative, show concrete numbers, and invite beta participation.
 
 user:
 Your billing system is really confusing! The usage graphs don't make sense and I can never tell if I'm actually saving money with the time-of-use plan. You need to make this way simpler for regular people to understand.
 
+assistant channel=analysis:
+Ask for account_id, then pull last month usage and summarize in dollars; offer beta enrollment.
+
 assistant channel=final:
-Thank you so much for this valuable feedback! You're absolutely right - we've heard similar concerns from many customers, and your input is helping us prioritize improvements.
+Thanks for speaking up—your feedback is spot on. If you share your account ID, I can translate last month’s usage into a one‑line summary like “You saved $X on TOU.” Want me to also add you to our new, simpler bill beta?
 
-**Specific Issues You Mentioned:**
-- Usage graphs are confusing and hard to interpret
-- Time-of-use savings aren't clearly presented
-- Overall billing complexity for average consumers
+user:
+Account ID CP-44721. If the beta is good, count me in.
 
-**Improvements Already in Development:**
-✅ **New Bill Design** launching next month with:
-- Simple "You saved $X this month" summary at the top
-- Color-coded usage bars (green = savings, red = higher cost)
-- Plain English explanations instead of technical jargon
+assistant channel=commentary to=tool.fetch_usage_summary:
+{"account_id": "CP-44721"}
 
-✅ **Mobile App Update** coming in 6 weeks:
-- Interactive usage simulator: "What if I shifted usage?"
-- Push notifications: "Running dishwasher at 9 PM saves $2"
-- Weekly savings summaries in simple dollar amounts
+tool.fetch_usage_summary channel=commentary to=assistant:
+{"month":"2025-04","kwh":642,"cost_usd":118.4,"tou_savings_usd":23.6,"on_peak_kwh":198,"off_peak_kwh":444}
 
-✅ **Customer Testing Program:**
-We're recruiting customers like you to test new designs before launch. Would you be interested in a 15-minute feedback session (compensated with $25 bill credit)?
+assistant channel=analysis:
+Summarize savings clearly; then offer beta enrollment via email.
 
-**Immediate Help:**
-I can schedule a free 10-minute phone consultation with our energy efficiency team to review your specific usage and explain your current savings potential.
+assistant channel=commentary to=tool.enroll_beta_test:
+{"account_id": "CP-44721", "contact_method": "email"}
 
-**Your Feedback Implementation:**
-Your suggestions will be shared directly with our billing redesign team this week. Customers like you are why we're making these changes - thank you for taking the time to help us improve!
+tool.enroll_beta_test channel=commentary to=assistant:
+{"enrolled":true,"session_scheduled":"2025-05-20T16:00:00-07:00","credit_usd":25}
 
-Would you like me to add you to our beta testing group for the new bill format?
+assistant channel=final:
+Here’s the plain-English view for April:
+
+- You used 642 kWh and paid $118.40
+- Time‑of‑use saved you about $23.60 versus flat pricing
+- Usage mix: 198 kWh on‑peak, 444 kWh off‑peak
+
+I’ve added you to the simpler bill beta and scheduled a 15‑minute feedback chat for 2025‑05‑20 at 4:00 PM. You’ll see a $25 bill credit after the session. Want alerts like “Running laundry after 9 PM saves ~$2”? I can turn that on too.
