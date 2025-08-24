@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/virtual-stories.svg)](https://pypi.org/project/virtual-stories/)
 [![License](https://img.shields.io/pypi/l/virtual-stories.svg)](https://opensource.org/licenses/MIT)
 
-The directory structure of the virtual stories is as follows: `virtual_stories/{DOMAIN}/{TOPIC}/{SEQ_NUM}_{DIALOGUE_NAME}_{LANGUAGE_CODE}.txt`
+The directory structure of the virtual stories is as follows: `virtual_stories/stories/{DOMAIN}/{TOPIC}/{SEQ_NUM}_{DIALOGUE_NAME}_{LANGUAGE_CODE}.txt`
 
 - `{DOMAIN}`: The business domain or industry category, such as "entertainment_platform", "fitness_center", "public_utilities", "e_commerce", "healthcare", "automotive", "financial_services", "telecommunications", "education", "travel_aviation", etc.
 - `{TOPIC}`: The type of customer service interaction, such as "product_inquiry", "technical_support", "order_issues", "complaints_resolution", "billing_payment", "after_sales_service", "appointment_scheduling", "loyalty_programs", "emergency_support", "feedback_suggestions".
