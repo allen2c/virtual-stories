@@ -73,6 +73,24 @@ def list_topics(domain: str) -> typing.List[str]:
     return sorted(valid_topics)
 
 
+def list_dialogues(domain: str, topic: str) -> typing.List[str]:
+    """List dialogues in a topic that contain at least one valid story file."""
+    topic_root: pathlib.Path = _stories_root.joinpath(domain, topic)
+    if not topic_root.is_dir():
+        return []
+
+    valid_dialogues: typing.List[str] = []
+    for file_path in topic_root.glob("*.txt"):
+        stem: str = file_path.stem
+        try:
+            _, name_part, _ = _stem_to_valid_parts(stem)
+            valid_dialogues.append(name_part)
+        except Exception:
+            continue
+
+    return sorted(valid_dialogues)
+
+
 def read_story_raw_text(
     domain: str,
     topic: str,
@@ -126,6 +144,8 @@ def read_story_raw_text(
 
 
 class Story(pydantic.BaseModel):
+    """Pydantic model representing a virtual story with metadata and content."""
+
     domain: str
     topic: str
     seq_num: int
