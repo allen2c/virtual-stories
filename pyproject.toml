@@ -7,14 +7,14 @@ dependencies = [
   "openai-agents (>=0.1.0,<1.0.0)",
   "pydantic (>=2)",
   "str-or-none",
-  "universal-message (>=0.3.0,<1.0.0)",
+  "universal-message (>=0.4.0,<1.0.0)",
 ]
 description = "Test to write virtual stories from configure."
 license = { text = "MIT" }
 name = "virtual-stories"
 readme = "README.md"
 requires-python = ">=3.11,<4"
-version = "0.2.0"
+version = "0.3.0"
 
 [project.urls]
 Homepage = "https://github.com/allen2c/virtual-stories"

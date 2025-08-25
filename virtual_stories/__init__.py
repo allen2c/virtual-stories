@@ -15,10 +15,16 @@ _stories_root = _package_root.joinpath("stories")
 STORY_FILE_PATTERN = (
     "stories/{DOMAIN}/{TOPIC}/{SEQ_NUM}_{DIALOGUE_NAME}_{LANGUAGE_CODE}.txt"
 )
+DIALOGUE_STEM_PATTERN: typing.Pattern[str] = re.compile(
+    r"^(?P<seq>\d+)_(?P<name>.+)_(?P<lang>[A-Za-z0-9_-]+)$"
+)
+
+
+FunctionDefinitionList = pydantic.TypeAdapter(typing.List[FunctionDefinition])
 
 
 def list_domains() -> typing.List[str]:
-    """List domains that contain at least one valid topic with a valid story file."""
+    """List all valid domains with story files."""
     valid_domains: typing.List[str] = []
     for domain_path in _stories_root.iterdir():
         if not domain_path.is_dir():
@@ -50,7 +56,7 @@ def list_domains() -> typing.List[str]:
 
 
 def list_topics(domain: str) -> typing.List[str]:
-    """List topics in a domain that contain at least one valid story file."""
+    """List topics in a domain with story files."""
     domain_root: pathlib.Path = _stories_root.joinpath(domain)
     if not domain_root.is_dir():
         return []
@@ -73,7 +79,26 @@ def list_topics(domain: str) -> typing.List[str]:
     return sorted(valid_topics)
 
 
-def read_story_raw_text(
+def list_dialogues(domain: str, topic: str) -> typing.List[str]:
+    """List dialogue names in a topic."""
+    topic_root: pathlib.Path = _stories_root.joinpath(domain, topic)
+    if not topic_root.is_dir():
+        return []
+
+    valid_dialogues: typing.List[str] = []
+    for file_path in topic_root.glob("*.txt"):
+        stem: str = file_path.stem
+        try:
+            _, name_part, _ = _stem_to_valid_parts(stem)
+            valid_dialogues.append(name_part)
+        except Exception:
+            continue
+
+    return sorted(valid_dialogues)
+
+
+def read_raw_dialogue(
+    *,
     domain: str,
     topic: str,
     seq_num: int | None = None,
@@ -86,7 +111,7 @@ def read_story_raw_text(
     typing.Annotated[LanguageCodes, "LanguageCode"],
     typing.Annotated[str, "Raw Plain Text Content"],
 ]:
-    """Read story file matching constraints; return resolved metadata and content."""
+    """Read story file and return metadata with content."""
     topic_root = _stories_root.joinpath(domain, topic)
     if not topic_root.is_dir():
         raise FileNotFoundError(f"Topic root not found: {topic_root}")
@@ -125,7 +150,46 @@ def read_story_raw_text(
     )
 
 
-class Story(pydantic.BaseModel):
+def read_dialogue(
+    domain: str,
+    topic: str,
+    seq_num: int | None = None,
+    dialogue_name: str | None = None,
+) -> "Dialogue":
+    """Read story file and return Dialogue object."""
+    _domain, _topic, _seq_num, _dialogue_name, _lang, _raw_text = read_raw_dialogue(
+        domain=domain, topic=topic, seq_num=seq_num, dialogue_name=dialogue_name
+    )
+    _messages = um.Message.from_plaintext_of_gpt_oss(_raw_text)
+    _dialogue_description = ""
+    _tools: typing.List[FunctionDefinition] = []
+    if _messages and _messages[0].metadata:
+        if _dialogue_description := (
+            _messages[0].metadata.get("dialogue_description")
+            or _messages[0].metadata.get("description")
+        ):
+            _dialogue_description = str(_dialogue_description)
+        if _tools_defs := (
+            _messages[0].metadata.get("dialogue_tools_definitions")
+            or _messages[0].metadata.get("tools")
+        ):
+            _tools = FunctionDefinitionList.validate_json(str(_tools_defs))
+
+    return Dialogue(
+        domain=_domain,
+        topic=_topic,
+        seq_num=_seq_num,
+        dialogue_name=_dialogue_name,
+        language_code=_lang,
+        description=str(_dialogue_description),
+        tools=_tools,
+        messages=_messages,
+    )
+
+
+class Dialogue(pydantic.BaseModel):
+    """Virtual story with metadata and message content."""
+
     domain: str
     topic: str
     seq_num: int
@@ -135,16 +199,18 @@ class Story(pydantic.BaseModel):
     tools: typing.List[FunctionDefinition] = pydantic.Field(default_factory=list)
     messages: typing.List[um.Message]
 
+    @property
+    def dialogue_full_name(self) -> str:
+        return (
+            f"{self.domain}.{self.topic}.{self.seq_num}_{self.dialogue_name}_"
+            + f"{self.language_code}"
+        )
+
 
 # Helper functions
-_STEM_RE: typing.Pattern[str] = re.compile(
-    r"^(?P<seq>\d+)_(?P<name>.+)_(?P<lang>[A-Za-z0-9_-]+)$"
-)
-
-
 def _stem_to_valid_parts(stem: str) -> typing.Tuple[int, str, LanguageCodes]:
-    """Parse file stem into (seq_num, name, language_code)."""
-    match: typing.Optional[re.Match[str]] = _STEM_RE.match(stem)
+    """Parse filename into sequence, name, and language code."""
+    match: typing.Optional[re.Match[str]] = DIALOGUE_STEM_PATTERN.match(stem)
     if match is None:
         raise ValueError(f"Invalid stem format: {stem}")
 
