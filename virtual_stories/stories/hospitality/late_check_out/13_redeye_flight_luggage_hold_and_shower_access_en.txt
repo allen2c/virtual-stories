@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (airline coordination). Special flag.
 
 assistant channel=final:
-Thanks for asking about extended luggage holds. This is being reviewed with the relevant partners. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about extended luggage holds. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

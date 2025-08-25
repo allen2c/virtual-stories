@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond facts—flag.
 
 assistant channel=final:
-I’ve initiated a request for the partner vendors’ food safety inspection scores and citation history through our compliance channel. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Examining various angles. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

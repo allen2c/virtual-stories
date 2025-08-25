@@ -48,5 +48,5 @@ assistant channel=analysis:
 Exact formulation beyond context; special flag.
 
 assistant channel=final:
-I’m checking on the detailed formulation of our odor-control additive for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about the additive formulation. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

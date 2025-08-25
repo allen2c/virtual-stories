@@ -48,5 +48,5 @@ assistant channel=analysis:
 Exact pH/temperature beyond context; special flag.
 
 assistant channel=final:
-I’m verifying the detergent pH and precise finishing temperature details for your blouse. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about detergent pH and finishing temperature. Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -48,5 +48,5 @@ assistant channel=analysis:
 Label inspection beyond context; special flag.
 
 assistant channel=final:
-I’m verifying the fabric label and appropriate steam temperature settings for your jacket. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the fabric details. Looking up the latest information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

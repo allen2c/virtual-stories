@@ -2,7 +2,7 @@
 A guest asks about the hotel's library lounge.
 
 ROLES: user (a book-loving guest), assistant (a hotel staff member providing information about the library lounge)
-CHANNels": analysis, commentary, final
+CHANNELS: analysis, commentary, final
 TOOLS:
 ```json
 [

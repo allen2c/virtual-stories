@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond facts—flag.
 
 assistant channel=final:
-I’ve filed a request for 90‑day tamper‑seal compliance rates per vendor with our service quality tracker. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Retrieving information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

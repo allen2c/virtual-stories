@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Thanks—roaming details and travel pass enrollment are being processed and tracked. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks—gathering relevant data on roaming details and travel pass enrollment. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -37,5 +37,5 @@ assistant channel=analysis:
 Beyond facts—flag.
 
 assistant channel=final:
-I’ve submitted a request to retrieve loading bay access logs and the CCTV segment for tonight’s time window via Security. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

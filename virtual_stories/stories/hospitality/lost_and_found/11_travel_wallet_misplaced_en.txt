@@ -53,6 +53,6 @@ assistant channel=analysis:
 This goes beyond what we can action live; trigger the special flag. Keep phrasing neutral and confident; no tools.
 
 assistant channel=final:
-Coordination on corridor footage and related logs is underway and you’ll receive an update as soon as it’s reviewed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Compiling available data on corridor footage and elevator logs. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

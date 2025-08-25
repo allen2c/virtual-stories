@@ -63,4 +63,4 @@ assistant channel=analysis:
 This goes beyond system context and capabilities (bulk digitization/rights). Trigger special flag and end.
 
 assistant channel=final:
-I appreciate your research interest. I’m looking into the request for comprehensive digital copies of our archives collection. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I appreciate your research interest. Let me research this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

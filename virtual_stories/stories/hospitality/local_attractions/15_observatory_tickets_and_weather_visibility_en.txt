@@ -45,6 +45,6 @@ assistant channel=analysis:
 Beyond system; use special flag.
 
 assistant channel=final:
-I’m checking current visibility conditions and the best times for views today. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Collecting information on this topic. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

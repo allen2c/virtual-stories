@@ -48,5 +48,5 @@ assistant channel=analysis:
 Specific brand/ingredients beyond context; special flag.
 
 assistant channel=final:
-I’m confirming the precise hypoallergenic detergent brand and ingredient details for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the detergent specifics. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

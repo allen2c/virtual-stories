@@ -42,6 +42,6 @@ assistant channel=analysis:
 Out of scope; finalize with special flag.
 
 assistant channel=final:
-I’ve queued a detailed follow-up on the item review, and you’ll receive the confirmation steps shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing available methods for item verification. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

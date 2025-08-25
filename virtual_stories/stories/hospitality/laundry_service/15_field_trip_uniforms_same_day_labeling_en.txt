@@ -48,5 +48,5 @@ assistant channel=analysis:
 Detailed machine data beyond context; special flag.
 
 assistant channel=final:
-I’m compiling a cycle data and temperature summary request for your batches. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the request about cycle data and temperatures. Evaluating potential solutions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

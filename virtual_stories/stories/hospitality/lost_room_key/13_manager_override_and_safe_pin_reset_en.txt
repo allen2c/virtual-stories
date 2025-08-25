@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond facts—use flag.
 
 assistant channel=final:
-I’ve requested the safe lock service log history for your room from Security under our records protocol. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Digging into safe lock service history for your room through Security channels. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; use special flag.
 
 assistant channel=final:
-I’m arranging a stroller rental in advance so it’s ready on arrival. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Looking deeper into this issue. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

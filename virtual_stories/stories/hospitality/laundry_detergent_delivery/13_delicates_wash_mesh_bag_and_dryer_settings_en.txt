@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (appliance update). Special flag.
 
 assistant channel=final:
-Appreciate the question about the sensor cycle. This is being checked with the appropriate team. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Appreciate the question about the sensor cycle. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (external courier schedule). Special flag.
 
 assistant channel=final:
-Thanks for asking about emergency loops. This is being reviewed with the appropriate partners. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about emergency loops. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

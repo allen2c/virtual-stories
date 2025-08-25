@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (external waiver). Special flag.
 
 assistant channel=final:
-Thanks for raising that coordination question. This is being checked with the right contacts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for raising that coordination question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

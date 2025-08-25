@@ -45,4 +45,4 @@ assistant channel=analysis:
 Out of scope—network policy changes/whitelisting not in system. Trigger special flag.
 
 assistant channel=final:
-Understood about the sandbox access. I’m checking into network allowance changes for that domain. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood about the sandbox access. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

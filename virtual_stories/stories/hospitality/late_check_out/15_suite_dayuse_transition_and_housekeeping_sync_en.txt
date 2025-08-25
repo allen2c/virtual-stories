@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (tourism authority facilitation). Special flag.
 
 assistant channel=final:
-Thanks for asking about festival accommodations. This is being reviewed with the relevant teams. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about festival accommodations. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

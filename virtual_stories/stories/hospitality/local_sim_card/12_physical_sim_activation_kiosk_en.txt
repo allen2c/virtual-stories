@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Activation steps and feature binding are being coordinated and will be updated shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Processing your request for activation steps and feature binding. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

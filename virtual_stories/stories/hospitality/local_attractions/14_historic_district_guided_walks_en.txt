@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-I’m getting your names added for the 14:00 tour and arranging the confirmation email. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Processing your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

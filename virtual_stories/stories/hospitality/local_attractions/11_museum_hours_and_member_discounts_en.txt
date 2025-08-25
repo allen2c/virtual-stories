@@ -55,6 +55,6 @@ assistant channel=analysis:
 Beyond system tools; use special flag.
 
 assistant channel=final:
-I’m arranging the 15:30 timed‑entry tickets in your name. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Gathering relevant data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -42,6 +42,6 @@ assistant channel=analysis:
 Beyond scope; end with special flag.
 
 assistant channel=final:
-The request has been escalated for coordinated handling, and I’ll keep you posted on the progress. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Exploring different approaches for global badge deactivation coordination. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

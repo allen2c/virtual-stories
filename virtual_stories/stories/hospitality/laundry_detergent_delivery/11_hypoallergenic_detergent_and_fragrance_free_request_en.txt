@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (manufacturer reformulation). Special flag.
 
 assistant channel=final:
-Thanks for the question on the blend update. This is being checked with the appropriate supplier contact. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the question on the blend update. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

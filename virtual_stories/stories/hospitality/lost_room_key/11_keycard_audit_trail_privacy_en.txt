@@ -41,5 +41,5 @@ assistant channel=analysis:
 Beyond available facts; use the special flag and conclude.
 
 assistant channel=final:
-I’ve initiated a formal audit-trail request with Security for legal review workflow and will update you as it progresses. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Evaluating potential solutions for formal audit-trail request through Security review workflow. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond sharing raw logs; use flag.
 
 assistant channel=final:
-I’ve opened a request with Security for today’s door access documentation under our privacy review process and will share updates as they’re available. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Cross-referencing sources on door access documentation through privacy review process. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

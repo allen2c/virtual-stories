@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (manufacturer update). Special flag.
 
 assistant channel=final:
-Great question about the eco‑wash rollout. This is being checked with the appropriate contacts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great question about the eco‑wash rollout. Compiling available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

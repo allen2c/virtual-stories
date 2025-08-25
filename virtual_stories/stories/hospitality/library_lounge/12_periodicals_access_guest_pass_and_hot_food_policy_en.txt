@@ -54,4 +54,4 @@ assistant channel=analysis:
 Out of scope relative to access rules: no external day visitors or guest passes. Trigger special flag and end.
 
 assistant channel=final:
-I understand the request. I’m looking into options regarding visitor access to the Lounge this evening. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I understand the request. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

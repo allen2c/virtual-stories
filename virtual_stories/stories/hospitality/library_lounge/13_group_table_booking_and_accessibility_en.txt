@@ -54,4 +54,4 @@ assistant channel=analysis:
 Out of scope—no private rooms are defined in system prompt for allocation. Trigger special flag.
 
 assistant channel=final:
-I see the need for a private space after your booking. I’m checking into arrangements for a closed‑door room beyond the Lounge’s standard seating. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I see the need for a private space after your booking. Exploring different approaches. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

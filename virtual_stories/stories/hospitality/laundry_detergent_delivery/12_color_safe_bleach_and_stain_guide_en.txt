@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (brand guidance). Special flag.
 
 assistant channel=final:
-Thanks for raising the colorfastness guidance question. This is being followed up with the relevant parties. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for raising the colorfastness guidance question. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

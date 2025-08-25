@@ -30,5 +30,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Understood—profile restoration and QR issuance are being actioned with priority. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood—examining available options for profile restoration and QR issuance. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond system context (external arrangement). Special flag.
 
 assistant channel=final:
-Thanks for checking on the blanket extension. This is being coordinated with the appropriate contacts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking on the blanket extension. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

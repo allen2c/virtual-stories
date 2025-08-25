@@ -37,5 +37,5 @@ assistant channel=analysis:
 Beyond facts—flag.
 
 assistant channel=final:
-I’ve initiated a compliance audit‑trail request for after‑hours ID checks covering the past quarter with our security records. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; use special flag.
 
 assistant channel=final:
-I’m coordinating preferred seating arrangements for your cruise. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

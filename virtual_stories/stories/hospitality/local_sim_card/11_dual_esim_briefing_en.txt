@@ -51,5 +51,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Thanks—carrier provisioning and KYC submission are being queued for processing immediately. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks—reviewing available resources for carrier provisioning and KYC submission. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

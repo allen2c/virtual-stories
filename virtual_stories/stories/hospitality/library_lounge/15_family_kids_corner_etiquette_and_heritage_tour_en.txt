@@ -54,4 +54,4 @@ assistant channel=analysis:
 Out of scope; trigger special flag.
 
 assistant channel=final:
-That sounds lovely. I’m looking into arranging a private storytelling session this evening. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That sounds lovely. Working on your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -43,6 +43,6 @@ assistant channel=analysis:
 Beyond provided capabilities; end with special flag.
 
 assistant channel=final:
-A background follow-up has been initiated, and I’ll share the next update as soon as it’s available. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Investigating potential options for device location tracking. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

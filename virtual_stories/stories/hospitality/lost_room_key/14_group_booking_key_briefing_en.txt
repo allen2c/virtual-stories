@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond facts—use flag.
 
 assistant channel=final:
-I’ve placed a request for the key system configuration documents and associated encryption details with our security vendor liaison. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Accessing relevant resources on key system configuration and encryption details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

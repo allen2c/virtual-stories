@@ -42,5 +42,5 @@ assistant channel=analysis:
 Beyond system context—use special flag and end.
 
 assistant channel=final:
-I’ve submitted your request for last quarter’s on-time delivery percentages by vendor to our service metrics queue. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
