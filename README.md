@@ -77,10 +77,16 @@ The current weather in Boston is 22°C and partly cloudy. 🌤️
 - Tool results are emitted as `tool.<name> channel=commentary to=assistant:` followed by a single-line JSON object.
 - Use `assistant channel=analysis` for private reasoning and planning. Keep it concise.
 - Use `assistant channel=final` for the user-facing reply only.
-- Special flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]`: Used when available tools or system knowledge cannot adequately address the user's question. Simply acknowledge the inquiry and indicate it's being processed - do not promise solutions, transfers, or specific actions.
+- Special flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]`: Used when available tools or system knowledge cannot adequately address the user's question. Simply acknowledge the inquiry and indicate we will search for more information - do not promise solutions, transfers, or specific actions.
     - **When to use:** No suitable tools available, tool outputs insufficient, or system knowledge inadequate
-    - **Response format:** Brief acknowledgment + neutral processing statement (e.g., "I'm looking into this", "This is being processed")
+    - **Response format:** Brief acknowledgment + neutral processing statement. Avoid uncertain promises.
     - **Requirements:** End response with the flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` - no promises or commitments
+    - **Placement:** The flag must be the last token on the final line; no trailing punctuation after it.
+    - **Length and tone:** Up to 2 sentences; neutral wording; avoid affective words (e.g., "sorry", "unfortunately").
+    - **Language:** Mirror the user's language; if unclear, default to English.
+    - **Allowed processing statements (whitelist):** "I'm looking into this.", "Searching for more information.", "Reviewing available resources.", "Checking available options."
+    - **Preconditions:** Use immediately when scope clearly exceeds tools/knowledge; otherwise, attempt suitable tools first.
+    - **Forbidden:** Uncertain or promissory phrasing (e.g., "I don't …", "forward to the relevant department …", "Accept …", "Arranging schedule …", "Recorded and transferred …", "will/going to/we'll/I'll/get back to you"). Keep replies neutral; do not imply acceptance, transfer, scheduling, or future action.
 
 ### Automotive example (abridged)
 
@@ -164,7 +170,7 @@ assistant channel=analysis:
 The guest is asking about a local cultural festival, but I only have tools for room service. I don't have access to local event databases, festival schedules, or ticketing systems.
 
 assistant channel=final:
-I appreciate your interest in local cultural events! Unfortunately, I don't have access to detailed information about the Japanese festival or ticketing systems at the moment. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the festival. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 ```
 
 #### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Example 2: Tool output can not solve the issues
@@ -202,7 +208,7 @@ assistant channel=analysis:
 The tool only provides basic medication info but no allergy reaction protocols or emergency guidance. This appears to be a serious medical emergency requiring immediate professional intervention.
 
 assistant channel=final:
-I understand you're experiencing concerning symptoms after taking amoxicillin. While I can confirm it's an antibiotic, I don't have access to emergency allergy protocols or the detailed medical guidance you need right now. This is being processed urgently. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Your symptoms require guidance beyond what is available here. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 ```
 
 #### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Example 3: Provided knowledge information in system prompt is not enough to answer the user's question
@@ -226,7 +232,7 @@ assistant channel=analysis:
 The user is asking about very specific Portuguese wine varieties and soil types in the Douro Valley. My system knowledge only covers basic wine categories and common varietals, not specific regional characteristics or geological soil impacts on aging.
 
 assistant channel=final:
-That sounds like a fascinating wine region! I helped with our basic wine tasting event, but you're asking about some really specific varietals and terroir details that are way beyond what I know about the Douro Valley. I'm looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+This question goes beyond the available knowledge here. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 ```
 
 ## Features
