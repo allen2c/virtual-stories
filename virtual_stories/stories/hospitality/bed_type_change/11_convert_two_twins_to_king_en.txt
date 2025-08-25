@@ -34,5 +34,5 @@ assistant channel=analysis:
 Duration not specified; special flag.
 
 assistant channel=final:
-Thanks for planning around it—I’m confirming the current estimated setup time for today’s team. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

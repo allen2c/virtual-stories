@@ -55,8 +55,4 @@ assistant channel=analysis:
 Now they're asking about authentication of their specific Henri Lebasque painting and seeking expert authentication services. This is getting into specialized territory that requires expert art authentication knowledge - not something a hotel concierge would typically handle. While I can provide general guidance about our hotel's processes, finding qualified authentication experts for their personal collection is beyond my expertise. This is a perfect setup for the ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT flag.
 
 assistant channel=final:
-That's quite an interesting situation with the Lebasque piece. It's very wise of you to trust your instincts about the brushstrokes and color choices - even untrained eyes often pick up on subtleties that might indicate authentication concerns.
-
-While Margaret can certainly share how we handle authentication for our hotel collection, finding qualified independent authentication experts for Henri Lebasque specifically would require specialized knowledge of Impressionist authentication networks, accredited appraisers, and the specific scholarly community around Lebasque's work. This is quite a specialized area that goes beyond our typical concierge services.
-
-I appreciate you sharing this with me, and I understand how important it is to have confidence in your collection's authenticity. I'm looking into the best resources for Lebasque authentication specialists for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your request about Lebasque authentication specialists. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

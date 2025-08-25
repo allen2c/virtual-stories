@@ -45,5 +45,5 @@ assistant channel=analysis:
 Roaster not in system—end with the special flag.
 
 assistant channel=final:
-Great question on the roaster—it’s being verified now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about our coffee roaster. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

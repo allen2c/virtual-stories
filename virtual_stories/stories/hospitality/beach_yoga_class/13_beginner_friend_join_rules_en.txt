@@ -34,5 +34,5 @@ assistant channel=analysis:
 IDs not in system; special flag.
 
 assistant channel=final:
-Thanks for checking credentials thoughtfully. I’m retrieving the instructor certification identifiers to share accurately. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

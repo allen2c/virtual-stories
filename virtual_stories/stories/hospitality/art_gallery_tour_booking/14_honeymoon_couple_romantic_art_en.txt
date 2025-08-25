@@ -80,8 +80,4 @@ assistant channel=analysis:
 They have a beautiful personal connection to Impressionist art (proposal in front of a Monet), and they're asking about Impressionist works in Florence. This is getting into specific art historical and collection details that would require detailed knowledge of what Impressionist works are currently on display in Florence's various museums and private collections. While I might know some general information, providing specific current exhibition details and exact locations of Impressionist works would require specialized curatorial knowledge that goes beyond typical concierge expertise.
 
 assistant channel=final:
-How absolutely romantic that he proposed in front of a Monet! What a beautiful way to make art part of your engagement story, and now you want to continue that tradition on your honeymoon.
-
-You're right that Florence is primarily known for Renaissance art, but there are some Impressionist works scattered throughout the city's collections. However, finding specific Impressionist pieces that would be meaningful for your romantic art journey requires detailed knowledge of current exhibitions, private collections, and which museums might have Impressionist works on display right now.
-
-I understand how special it would be to include Impressionist art in your honeymoon experience, especially given the personal significance of your proposal story. I'm looking into exactly what Impressionist works are currently available for viewing in Florence and how we can incorporate them into your romantic art journey. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about Impressionist works available in Florence. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -3,6 +3,7 @@ Couple on romantic weekend needs storage with evening plans and special requests
 
 ROLES: user (couple on romantic getaway needing storage), assistant (romance concierge at boutique luxury hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -42,4 +43,4 @@ assistant channel=analysis:
 Guest is asking about hot air balloon availability - this is beyond our standard information. We offer the service but don't have real-time availability or weather-dependent scheduling details.
 
 assistant channel=final:
-The sunset hot air balloon rides are one of our most romantic experiences! I'm checking availability and weather conditions for tomorrow's flights right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The sunset hot air balloon rides are one of our most romantic experiences! Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

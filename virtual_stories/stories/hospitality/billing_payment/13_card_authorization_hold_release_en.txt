@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system control over bank confirmation; use special flag.
 
 assistant channel=final:
-We’re following up to obtain a confirmation regarding the hold removal timeline. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about bank confirmation timing. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

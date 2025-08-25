@@ -58,7 +58,6 @@ TOOLS:
   }
 ]
 """
-"""
 
 system:
 You are an educational concierge at Academic Arts Center (hotel_id: academic_arts_center_boston).

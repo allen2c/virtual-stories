@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system offering; use special flag.
 
 assistant channel=final:
-I’m preparing the requested transactional data attachment for audit review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your request about raw transactional data. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

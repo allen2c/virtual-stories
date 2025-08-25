@@ -34,5 +34,5 @@ assistant channel=analysis:
 Heart-rate zones not in system; special flag.
 
 assistant channel=final:
-Appreciate the thoughtful question. I’m obtaining the instructor’s specific training metrics for this session now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

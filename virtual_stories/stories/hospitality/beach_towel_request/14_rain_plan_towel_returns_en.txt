@@ -34,5 +34,5 @@ assistant channel=analysis:
 Forecast length not in system; special flag.
 
 assistant channel=final:
-I’m checking for the latest rain cell timing and will follow up promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

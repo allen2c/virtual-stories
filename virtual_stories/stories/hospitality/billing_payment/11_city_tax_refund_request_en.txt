@@ -47,6 +47,6 @@ assistant channel=analysis:
 System says VAT not applicable; beyond system to produce VAT invoice; use special flag.
 
 assistant channel=final:
-Your request for a VAT‑compliant invoice is in progress—we’ll coordinate the appropriate documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your request about a VAT-compliant invoice. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

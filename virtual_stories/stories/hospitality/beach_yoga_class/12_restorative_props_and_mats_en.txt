@@ -34,5 +34,5 @@ assistant channel=analysis:
 Exact sand temperature not in system; special flag.
 
 assistant channel=final:
-Thanks for asking—we’re checking the precise deck‑area sand temperature reading at this moment. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

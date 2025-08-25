@@ -42,5 +42,5 @@ assistant channel=analysis:
 No café info in context; use special flag.
 
 assistant channel=final:
-That cappuccino sounds perfect after a flight. I’m checking on the current status of the Level 2 café. I’ll process this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the Level 2 café status. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

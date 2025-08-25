@@ -25,5 +25,5 @@ assistant channel=analysis:
 Certification details not in system; special flag.
 
 assistant channel=final:
-I’m confirming the certification details for the microfiber layers so we can document that accurately for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

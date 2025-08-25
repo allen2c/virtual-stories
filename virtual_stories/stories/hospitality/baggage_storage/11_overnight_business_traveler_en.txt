@@ -3,6 +3,7 @@ Business traveler needs overnight baggage storage with chitchat and specialized 
 
 ROLES: user (frequent business traveler needing storage), assistant (concierge at luxury business hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -33,4 +34,4 @@ assistant channel=analysis:
 Guest is asking about traffic patterns and transportation to convention center - this is beyond our standard hotel information. We don't have real-time traffic data or detailed local transportation expertise.
 
 assistant channel=final:
-The convention center is just a 10-minute walk or 5-minute cab ride from here, but morning traffic can vary. I'm looking into current transportation options and traffic patterns for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The convention center is just a 10-minute walk or 5-minute cab ride from here, but morning traffic can vary. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

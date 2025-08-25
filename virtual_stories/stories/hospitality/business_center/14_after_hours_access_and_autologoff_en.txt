@@ -49,5 +49,5 @@ assistant channel=analysis:
 Machine-level schedule details beyond context; use special flag.
 
 assistant channel=final:
-I see you’re looking for very specific timing per device. I’m routing this for precise confirmation now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about per-device wipe scheduling. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -25,5 +25,5 @@ assistant channel=analysis:
 Brand not in system; special flag.
 
 assistant channel=final:
-I’m checking the exact mattress brand specification for your room type now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

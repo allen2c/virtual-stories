@@ -54,5 +54,5 @@ assistant channel=analysis:
 Beyond system context (no estate-level sourcing). Finish with special flag.
 
 assistant channel=final:
-Noted on the estate detail—this is being confirmed for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the Assam tea estate. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

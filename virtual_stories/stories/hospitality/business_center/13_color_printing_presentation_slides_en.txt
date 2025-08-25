@@ -40,5 +40,5 @@ assistant channel=analysis:
 Stapler and paper cutter were noted in a prior dialogue’s system, but not in this one. We must only use current system facts. It's not listed here, so cannot assert. Use special flag for supply details.
 
 assistant channel=final:
-Clean edges make a difference. I’m confirming the availability of stapling and paper cutting at this moment. Proceeding with your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about stapling and paper cutting. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

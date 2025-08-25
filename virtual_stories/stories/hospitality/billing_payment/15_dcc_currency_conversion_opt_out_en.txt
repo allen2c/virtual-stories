@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond policy; use special flag.
 
 assistant channel=final:
-We’re coordinating an exception review regarding refund routing for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood about refund routing to a different card. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -55,5 +55,5 @@ assistant channel=analysis:
 Data recovery beyond context; invoke special flag and end.
 
 assistant channel=final:
-I appreciate your diligence about file safety. I’m reviewing options for recovering closed documents on our workstations. This is being handled now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about recovering closed documents. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -45,5 +45,5 @@ assistant channel=analysis:
 Fresh-pressed is in system; farm source is not. Use special flag.
 
 assistant channel=final:
-The pear-fennel juice is fresh-pressed on request. The specific farm source is being verified for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The pear-fennel juice is fresh-pressed on request. Checking available options for the farm source. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

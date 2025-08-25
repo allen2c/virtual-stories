@@ -43,5 +43,5 @@ assistant channel=analysis:
 UV index is not provided in system. This is beyond system context; invoke special flag and end.
 
 assistant channel=final:
-Appreciate you checking ahead. I’m reviewing this request for live beach conditions and will process it right away. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

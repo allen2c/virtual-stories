@@ -34,5 +34,5 @@ assistant channel=analysis:
 Temperature not included; use special flag.
 
 assistant channel=final:
-I’m checking on the current pool temperature reading and will update you shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

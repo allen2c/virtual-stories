@@ -48,7 +48,7 @@ Perfect ages for our kids club! It's open from 9:00 AM to 8:00 PM with arts and 
 assistant channel=commentary to=tool.arrange_baggage_storage:
 {"hotel_id":"paradise_family_resort_orlando","num_bags":5,"pickup_time":"16:00"}
 
-tool.arrange_baggage_storage channel=commentary to=tool.arrange_baggage_storage:
+tool.arrange_baggage_storage channel=commentary to=assistant:
 {"status":"confirmed","ticket_number":"KF789"}
 
 assistant channel=analysis:

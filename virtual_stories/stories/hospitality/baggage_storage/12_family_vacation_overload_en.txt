@@ -3,6 +3,7 @@ Family with young children needs storage for vacation gear with multiple request
 
 ROLES: user (family traveler with kids needing storage), assistant (family services coordinator at family-friendly resort)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -33,4 +34,4 @@ assistant channel=analysis:
 Guest is asking for restaurant recommendations near the airport - this is beyond our standard resort information. We focus on on-site dining and immediate area recommendations, not airport vicinity.
 
 assistant channel=final:
-I've reserved spots for your children in today's kids' club activities. As for restaurants near the airport, that's a great question for families traveling with kids. I'm checking our recommendations and current family dining options in that area. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+This request goes beyond the available information here. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

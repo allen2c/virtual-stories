@@ -25,5 +25,5 @@ assistant channel=analysis:
 Breathable liner availability not stated; special flag.
 
 assistant channel=final:
-Understood—I’m verifying the specific crib accessory options so we can set this up properly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system offering; use special flag.
 
 assistant channel=final:
-I’m arranging a CSV line‑level export suitable for your expense platform. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about a CSV line-level export. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

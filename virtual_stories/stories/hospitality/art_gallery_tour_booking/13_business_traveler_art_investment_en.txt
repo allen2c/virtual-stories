@@ -56,8 +56,4 @@ assistant channel=analysis:
 Now they're asking about detailed market performance data and investment returns analysis for contemporary abstract art. This is getting into specialized financial analysis territory that requires access to proprietary art market databases, comprehensive sales data, and sophisticated financial modeling. While our art advisor Charles can provide general guidance, detailed investment analysis and specific return calculations would require specialized art investment advisory services that go beyond our hotel's capabilities.
 
 assistant channel=final:
-That's an excellent question about the financial analysis side. Charles is wonderful for general market guidance, artist recommendations, and helping you understand collecting fundamentals, but detailed market performance data and investment return analysis requires specialized resources that go beyond our hotel's art advisory services.
-
-For comprehensive financial analysis of contemporary abstract art market performance, including specific ROI calculations, comparative returns against other asset classes, and portfolio optimization strategies, you'd want to work with dedicated art investment firms who have access to proprietary databases and sophisticated analytical tools.
-
-I understand how important the financial performance data is for your investment decision-making process. I'm looking into the specialized art investment advisory services that can provide the detailed market analysis and return calculations you're seeking. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your request about detailed art investment analysis. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

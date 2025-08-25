@@ -25,5 +25,5 @@ assistant channel=analysis:
 Exact bed height not in system; special flag.
 
 assistant channel=final:
-Thanks for checking fit—I’m confirming the bed frame height specification for your assigned room. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

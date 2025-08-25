@@ -3,6 +3,7 @@ Group of friends needs storage during city break with diverse interests.
 
 ROLES: user (group of friends needing storage), assistant (group activities coordinator at vibrant city hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -60,4 +61,4 @@ assistant channel=analysis:
 Guest is asking for BBQ restaurant recommendations - this is beyond our standard hotel information. We know about our on-site BBQ classes but not external restaurant recommendations.
 
 assistant channel=final:
-Austin is famous for its BBQ scene! I'm checking out the current best BBQ recommendations and what's hot right now in the local food scene. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+This request goes beyond the available information here. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -63,5 +63,5 @@ assistant channel=analysis:
 This is beyond system context (no supplier brand details). End with the required special flag; avoid saying “I don’t…”.
 
 assistant channel=final:
-Appreciate the detailed question about our pastry flour sourcing. This is being reviewed for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about pastry flour sourcing. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

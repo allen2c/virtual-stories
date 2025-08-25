@@ -34,5 +34,5 @@ assistant channel=analysis:
 Lux reading not in system; special flag.
 
 assistant channel=final:
-Thanks for thinking ahead—I’m checking the current illumination level at the deck area for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

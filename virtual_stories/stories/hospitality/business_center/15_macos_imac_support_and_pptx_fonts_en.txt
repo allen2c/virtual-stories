@@ -49,5 +49,5 @@ assistant channel=analysis:
 License specifics beyond context; use special flag and end.
 
 assistant channel=final:
-You’re asking a careful and important question about licensing. I’m initiating a check to confirm font license terms for your use case. Processing now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about font license terms. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

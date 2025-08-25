@@ -34,5 +34,5 @@ assistant channel=analysis:
 Surf forecast is beyond system context; close with special flag.
 
 assistant channel=final:
-Thanks for asking ahead of time. I’m coordinating to retrieve the latest surf conditions for the south reef now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -3,6 +3,7 @@ Solo photographer needs storage for equipment with city exploration plans.
 
 ROLES: user (solo photographer needing storage), assistant (lifestyle concierge at urban boutique hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -42,4 +43,4 @@ assistant channel=analysis:
 Guest is asking about hidden industrial area street art gems - this is beyond our standard hotel information. We know the main art districts but not specific hidden industrial locations.
 
 assistant channel=final:
-The industrial areas do have some incredible hidden street art pieces! I'm looking up the current locations and best routes to those hidden gems in the industrial districts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The industrial areas do include hidden street art locations. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
