@@ -35,7 +35,7 @@ assistant channel=analysis:
 The guest is asking about real-time pollen level checking and pool sanitation methods. The system prompt mentions we monitor real-time pollen counts, but specific real-time checking methods and exact pool sanitation details are beyond the general information provided. I need to acknowledge this and pass it to background processing.
 
 assistant channel=final:
-Hot air ballooning is truly spectacular at sunrise over the desert! Those are great questions about real-time pollen monitoring and our pool sanitation methods. I don't have the specific details about real-time pollen checking systems and exact pool treatment processes right now. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Hot air ballooning is truly spectacular at sunrise over the desert! Those are great questions about real-time pollen monitoring and our pool sanitation methods. I don't have the specific details about real-time pollen checking systems and exact pool treatment processes right now. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 I appreciate you checking on that. By the way, I love the desert landscape. Have you ever watched a sunset from the golf course? I've heard it's particularly beautiful here.
@@ -53,7 +53,7 @@ assistant channel=analysis:
 The guest is asking about air quality forecasts for specific dates. This is local environmental information not covered in the hotel's system prompt. I need to acknowledge this and pass it to background processing.
 
 assistant channel=final:
-That's an excellent question about air quality forecasting for optimal outdoor activity timing. I don't have the specific air quality forecast details right now. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's an excellent question about air quality forecasting for optimal outdoor activity timing. I don't have the specific air quality forecast details right now. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 Thanks so much for your help. I think Desert Oasis will be perfect for my allergy-aware vacation. What's the best way to reach you if I have questions during my stay?

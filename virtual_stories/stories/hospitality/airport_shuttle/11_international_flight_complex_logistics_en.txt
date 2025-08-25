@@ -31,9 +31,7 @@ This is a very complex situation involving:
 I don't have access to specialized tools for international flight coordination, airline accessibility services, or detailed connection timing systems. This requires expertise I don't have access to.
 
 assistant channel=final:
-That's quite a journey you have ahead! Frankfurt to Mumbai with a 90-minute connection - that's definitely cutting it close for international travel. You're absolutely right that our shuttle doesn't start until 4:00 AM, which wouldn't work for a 6:30 AM departure.
-
-For something this complex involving international connections, wheelchair assistance coordination, and the early timing, I want to make sure you get the specialized help you need. I'm looking into the best options for your specific situation right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's quite a journey you have ahead - Frankfurt to Mumbai with a 90-minute connection definitely cuts it close for international travel, and you're right that our shuttle doesn't start until 4:00 AM, which won't work for your 6:30 AM departure. I'm looking into the best options for your specific situation right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 I appreciate your honesty. I was hoping you might have connections with the airlines or specialized travel services. Do you know anything about the airport's accessibility services at least?
@@ -42,4 +40,4 @@ assistant channel=analysis:
 The guest is asking about airport accessibility services, but I don't have detailed information about Denver International Airport's specific accessibility procedures, contact numbers for their special assistance department, or coordination protocols. This requires specialized knowledge I don't have.
 
 assistant channel=final:
-I wish I had more detailed information about DEN's accessibility services readily available. While I know they offer comprehensive assistance, the specific procedures for international connections and wheelchair services require coordination that goes beyond what I can access from here. This is definitely being processed with the right specialists. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I wish I had more detailed information about DEN's accessibility services readily available. While I know they offer comprehensive assistance, the specific procedures for international connections and wheelchair services require coordination that goes beyond what I can access from here. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

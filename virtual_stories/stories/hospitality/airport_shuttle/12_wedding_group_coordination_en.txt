@@ -43,7 +43,7 @@ assistant channel=analysis:
 The guest is asking about private transportation companies for large group coordination. While hotels often have relationships with various service providers, I don't have access to detailed vendor databases, pricing information, or the ability to coordinate complex multi-destination group transportation bookings.
 
 assistant channel=final:
-I completely understand the stress - after such a wonderful celebration, the last thing anyone wants is transportation worries. While we work with various transportation providers, coordinating something this complex with multiple destinations, special needs, and custom routing requires specialized arrangements that I'm looking into for your group right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I completely understand the stress - after such a wonderful celebration, the last thing anyone wants is transportation worries. While we work with various transportation providers, coordinating something this complex with multiple destinations, special needs, and custom routing requires specialized arrangements. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 Okay, I appreciate that you're looking into it. How long do you think it might take? Some people are getting pretty anxious about their flight arrangements.

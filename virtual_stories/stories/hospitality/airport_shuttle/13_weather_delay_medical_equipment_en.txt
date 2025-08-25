@@ -45,9 +45,7 @@ Dr. Chen is asking about specific capabilities I don't have access to:
 She's also sharing a concerning past experience, showing this is a legitimate worry. I need to acknowledge her concerns but I don't have the specialized systems or protocols needed.
 
 assistant channel=final:
-I can definitely understand your concern, especially after that difficult experience in Minneapolis. Medical equipment and research samples require such precise conditions, and weather can create real challenges for transportation.
-
-The specific weather monitoring and specialized cargo handling you're asking about involves systems and protocols that go beyond our standard shuttle service capabilities. I'm looking into the best options for your particular situation with the valuable equipment and weather considerations. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I can definitely understand your concern, especially after that difficult experience in Minneapolis. Medical equipment and research samples require such precise conditions, and weather can create real challenges for transportation. The specific weather monitoring and specialized cargo handling you're asking about involves systems and protocols that go beyond our standard shuttle service capabilities. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 Oh no, that doesn't sound good. I really need to get this equipment back to my lab safely. Is there anything you can tell me about backup transportation options if the shuttle can't handle this?

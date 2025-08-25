@@ -35,7 +35,7 @@ assistant channel=analysis:
 The guest is asking about specific ingredients in our products and spa treatment accommodations. While I know we use organic botanical sources and can accommodate allergies, the exact ingredient formulations are specific details not covered in the system prompt. I need to acknowledge this and pass it to background processing.
 
 assistant channel=final:
-Those are excellent questions about our specific formulations and spa accommodations for cosmetic allergies. I don't have the detailed ingredient lists and exact formulations right now. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Those are excellent questions about our specific formulations and spa accommodations for cosmetic allergies. I don't have the detailed ingredient lists and exact formulations right now. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 I appreciate you checking on that. By the way, I've heard amazing things about your meditation gardens. Do you have any particular gardens that are especially good for relaxation? I've been practicing meditation for stress relief.
@@ -53,7 +53,7 @@ assistant channel=analysis:
 The guest is asking about local natural health practitioners for cosmetic allergies. This is specific local healthcare information not covered in the hotel's system prompt. I need to acknowledge this and pass it to background processing.
 
 assistant channel=final:
-That's a wonderful question about local natural health practitioners specializing in cosmetic allergies. I don't have that specific local practitioner information right now. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's a wonderful question about local natural health practitioners specializing in cosmetic allergies. I don't have that specific local practitioner information right now. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 Thank you for all your help. I feel much more prepared for my stay now. What's the best way to request additional cosmetic-free products during my visit?
