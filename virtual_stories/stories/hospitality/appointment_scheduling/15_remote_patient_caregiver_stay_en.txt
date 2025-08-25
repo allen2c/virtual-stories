@@ -50,5 +50,5 @@ assistant channel=analysis:
 Beyond system; medical device vendor pricing not provided; no tools. Use flag and end.
 
 assistant channel=final:
-I understand you’re asking for a hospital‑approved oxygen concentrator with current rental pricing. I don’t have access to live medical equipment vendor details at the moment. I’m looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I understand you’re asking for a hospital‑approved oxygen concentrator with current rental pricing. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

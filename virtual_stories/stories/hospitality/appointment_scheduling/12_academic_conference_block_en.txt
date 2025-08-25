@@ -61,5 +61,5 @@ assistant channel=analysis:
 External vendor pricing is beyond system context and we have no tools. Use special flag and end.
 
 assistant channel=final:
-I understand you’d like current pricing from a nearby print shop. I don’t have access to live vendor rates at the moment. I’m looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I understand you’d like current pricing from a nearby print shop. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

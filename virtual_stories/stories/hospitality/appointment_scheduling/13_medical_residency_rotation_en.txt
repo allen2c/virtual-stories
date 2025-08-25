@@ -51,5 +51,5 @@ assistant channel=analysis:
 Beyond system; no tools. Use flag and end.
 
 assistant channel=final:
-I understand you’re looking for the live ER wait time. I don’t have access to real‑time hospital systems at the moment. I’m looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I understand you’re looking for the live ER wait time. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

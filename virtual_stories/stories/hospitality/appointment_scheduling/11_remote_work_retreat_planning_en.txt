@@ -65,5 +65,5 @@ assistant channel=analysis:
 Trail conditions are beyond the provided system facts; no tools allowed. Use special flag and end.
 
 assistant channel=final:
-I appreciate the question about current trail conditions. I don’t have access to real‑time trail updates at the moment. I’m looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+This question goes beyond the available information here. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

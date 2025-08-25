@@ -50,5 +50,5 @@ assistant channel=analysis:
 Beyond system; no tools. Use flag and end.
 
 assistant channel=final:
-I understand you’d like a beachfront officiant with current availability and rates. I don’t have access to live vendor schedules at the moment. I’m looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I understand you’d like a beachfront officiant with current availability and rates. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
