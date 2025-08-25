@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Origin details and footprint estimates are being collected now—I’ll report back once compiled. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about origin and footprint figures. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

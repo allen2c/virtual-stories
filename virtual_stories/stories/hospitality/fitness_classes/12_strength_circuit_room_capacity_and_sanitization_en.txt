@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Rowing machine diagnostics are being reviewed—I’ll update you on their status shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about rower diagnostics. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

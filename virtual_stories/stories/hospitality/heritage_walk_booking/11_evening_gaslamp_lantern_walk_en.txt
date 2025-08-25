@@ -62,6 +62,6 @@ assistant channel=analysis:
 This goes beyond the system context; respond with the special flag without tools.
 
 assistant channel=final:
-Thanks for the creative idea—I'm queuing this request for further handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the creative idea—examining various angles. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

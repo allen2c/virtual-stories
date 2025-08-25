@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Playback telemetry and node details are being checked—I’ll update you as soon as they’re ready. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Playback telemetry and node details are outside this context. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

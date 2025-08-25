@@ -25,7 +25,7 @@ assistant channel=analysis:
 They're asking for specialized archaeological equipment that's beyond our standard desert hiking gear collection. I should acknowledge but indicate this isn't available.
 
 assistant channel=final:
-The Gnawa music tradition is beautiful! Unfortunately, our equipment collection focuses on basic desert hiking rather than specialized archaeological documentation tools. I'm looking into research equipment resources for your project. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The Gnawa music tradition is remarkable. Our equipment collection focuses on basic desert hiking rather than specialized archaeological documentation tools. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 No problem at all! What about basic sun protection for tomorrow's hike? And I'm fascinated by the traditional navigation methods - do the Berber guides really navigate by star patterns?
@@ -43,4 +43,4 @@ assistant channel=analysis:
 This requires detailed geological and hydrological data that would be beyond my role as desert guide coordinator, even though we use traditional qanat systems.
 
 assistant channel=final:
-What intriguing research connecting history and geology! While we use traditional qanat water systems, the detailed geological surveys and hydrological data you need would be beyond what I can provide. I'm looking into archaeological research resources for your study. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+What intriguing research connecting history and geology. Detailed geological surveys and hydrological datasets are outside this context. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

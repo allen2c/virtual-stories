@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system context.
 
 assistant channel=final:
-Wind readings for dawn are being checked now—I’ll share them as soon as they’re in. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Good question about dawn wind conditions. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

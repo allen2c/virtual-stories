@@ -33,6 +33,6 @@ assistant channel=analysis:
 Beyond context—special flag.
 
 assistant channel=final:
-I’ve noted this specialized request and it’s moving forward for additional attention. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I've noted this specialized request—assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

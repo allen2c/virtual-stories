@@ -44,5 +44,5 @@ assistant channel=analysis:
 This is beyond the system facts provided. Use the special flag and conclude.
 
 assistant channel=final:
-Appreciate the thoughtful angle on traffic flow. I’m coordinating a review of time-of-morning satisfaction heatmaps with our analytics queue now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for exploring traffic flow patterns. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

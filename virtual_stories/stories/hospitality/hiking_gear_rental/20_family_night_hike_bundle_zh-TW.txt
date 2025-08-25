@@ -42,6 +42,6 @@ user:
 想看今晚螢火蟲最多的區域，你能提供即時密度地圖嗎？
 
 assistant channel=final:
-了解你的需求，這類即時資訊正在處理中。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+了解你的需求。正在檢閱可用的觀察資料來源。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

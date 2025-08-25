@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Transaction logs and audit details are being reviewed—I’ll update you with what we can release. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Transaction logs and audit details are outside this context. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

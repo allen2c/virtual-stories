@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond facts—use special flag.
 
 assistant channel=final:
-I’ve queued a report request for the iconography A/B test metrics including click‑through and repeat orders with our menu analytics group. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about the iconography metrics. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

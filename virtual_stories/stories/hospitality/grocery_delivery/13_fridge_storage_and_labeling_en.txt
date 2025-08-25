@@ -50,5 +50,5 @@ assistant channel=analysis:
 Beyond SOP; escalate.
 
 assistant channel=final:
-Thanks for checking on that. I’m forwarding this specialized lab verification request for processing now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking on that. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

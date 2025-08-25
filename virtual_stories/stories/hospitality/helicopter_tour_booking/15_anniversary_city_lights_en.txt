@@ -50,5 +50,5 @@ assistant channel=analysis:
 Beyond system context; trigger special flag.
 
 assistant channel=final:
-Noted—live checks and routing coordination are in progress and being monitored. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted—digging into this question. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

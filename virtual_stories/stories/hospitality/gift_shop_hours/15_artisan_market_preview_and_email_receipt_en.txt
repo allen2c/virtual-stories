@@ -44,5 +44,5 @@ assistant channel=analysis:
 Only the preview table timing is provided; sending vendor catalogs and price lists requires coordination.
 
 assistant channel=final:
-I’ve noted your request for the weekend vendor catalog and pricing—routing this for follow-up. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options for the weekend vendor catalog and pricing. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -25,7 +25,7 @@ assistant channel=analysis:
 They're asking about very specific professional camera equipment that's beyond our basic camera collection. I should acknowledge their request but indicate this is beyond what we have available.
 
 assistant channel=final:
-The hot tub aurora viewing is definitely a guest favorite! Unfortunately, our camera collection focuses on basic point-and-shoot models rather than the professional full-frame systems you're looking for. I'm looking into more specialized photography equipment options for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The hot tub aurora viewing is definitely a guest favorite! Our camera collection focuses on basic point-and-shoot models rather than professional full-frame systems. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 No worries! What about simpler gear - do you have any snowshoes for tomorrow's morning hike? And I'm curious about the local wildlife - have you seen many caribou this season?
@@ -43,4 +43,4 @@ assistant channel=analysis:
 This is asking about scientific instruments and detailed aurora measurement data that would be beyond my basic wilderness concierge knowledge, even though we have a research partnership.
 
 assistant channel=final:
-That sounds like fascinating research! While I know we have a partnership with University of Alaska, the specific scientific instrumentation and magnetometer data access would be beyond what I can arrange directly. Let me look into those research resources for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That sounds like fascinating research! Access to specific instrumentation and magnetometer data is outside this context. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

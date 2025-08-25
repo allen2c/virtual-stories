@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Title ratings are being verified—I’ll follow up with the current list shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Title ratings verification is outside this context. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

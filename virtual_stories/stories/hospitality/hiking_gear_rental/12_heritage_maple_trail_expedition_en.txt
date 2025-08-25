@@ -25,7 +25,7 @@ assistant channel=analysis:
 They're asking for specialized scientific collection tools that go beyond our standard hiking equipment. I should acknowledge but indicate this is outside our basic gear offerings.
 
 assistant channel=final:
-The beams are original 1840s craftsmanship! Unfortunately, our gear collection focuses on basic hiking equipment rather than specialized botanical research tools. I'm looking into scientific collection resources for your study. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The beams are original 1840s craftsmanship! Our gear collection covers basic hiking equipment, not specialized botanical research tools. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 That's perfectly fine! What about regular snowshoes for tomorrow? And I'm fascinated by your maple operation - how many taps do you typically use each season?
@@ -43,4 +43,4 @@ assistant channel=analysis:
 This requires detailed historical climate data analysis that's beyond my role as heritage activities coordinator, even though we maintain some historical records.
 
 assistant channel=final:
-That's fascinating research! While we have some historical lodge records from the 1790s, the detailed climate data analysis you need would be beyond what I can provide directly. I'm looking into historical research resources for your study. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's fascinating research! Detailed historical climate data analysis is outside this context. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

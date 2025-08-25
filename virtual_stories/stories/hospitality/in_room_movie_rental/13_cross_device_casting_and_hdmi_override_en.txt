@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Device firmware details and network credentials are being handled securely—I’ll follow up through the proper channel. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Firmware specifics and SSID credentials are outside this context. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

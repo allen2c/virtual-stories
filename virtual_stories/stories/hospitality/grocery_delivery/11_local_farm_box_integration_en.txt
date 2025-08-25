@@ -63,5 +63,5 @@ assistant channel=analysis:
 This specificity is beyond the provided logistics system. Trigger special flag.
 
 assistant channel=final:
-Thanks for the detailed specification. I’m routing this specialized sourcing and certification request for processing now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the detailed specification. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

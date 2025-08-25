@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Calibration details and today’s roster are being compiled now—I’ll send them as soon as they’re ready. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great question about calibration and rosters. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

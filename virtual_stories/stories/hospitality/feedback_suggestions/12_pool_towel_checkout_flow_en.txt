@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond provided facts—use the flag.
 
 assistant channel=final:
-I’ve placed a request to compile six months of towel loss rates by hour and weather tagging with our operations analytics. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about towel loss analytics. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

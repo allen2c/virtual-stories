@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Wholesale pricing and markups are being requested—I’ll share the figures once verified. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about pricing and markups. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

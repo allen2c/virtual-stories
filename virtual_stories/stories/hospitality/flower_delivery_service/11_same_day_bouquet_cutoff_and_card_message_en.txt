@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Florist inventory and a fresh photo set are being requested now—I’ll share them shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your interest in live florist inventory and photos. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

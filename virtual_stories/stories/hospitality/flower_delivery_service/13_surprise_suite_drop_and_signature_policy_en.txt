@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Live corridor feeds are being handled through the appropriate channel—I’ll follow up with what’s possible. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Your request about corridor camera access is noted. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

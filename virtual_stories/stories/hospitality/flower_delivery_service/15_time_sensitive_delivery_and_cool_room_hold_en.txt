@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Courier tracking details are being obtained—I’ll update you with the arrival status shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your interest in live courier tracking. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

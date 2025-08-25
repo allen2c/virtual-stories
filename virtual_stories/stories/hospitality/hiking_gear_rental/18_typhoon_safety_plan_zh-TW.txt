@@ -43,6 +43,6 @@ user:
 可否告訴我最新的海巡或氣象局海上警報落點？
 
 assistant channel=final:
-已注意到你的需求，這部分正在處理中。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+已收到需求。正在查核可參考的資訊來源。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

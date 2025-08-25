@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond system facts—use special flag.
 
 assistant channel=final:
-I’ve logged a request for elevator dispatch details and daily efficiency reports with our building systems queue for follow‑up. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your interest in elevator dispatch details. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

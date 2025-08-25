@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond scope; use special flag.
 
 assistant channel=final:
-Thanks for the compliance request. This is being logged for documentation retrieval. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Compliance documentation request noted. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

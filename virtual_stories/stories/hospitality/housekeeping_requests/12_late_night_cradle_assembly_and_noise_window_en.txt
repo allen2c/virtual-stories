@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond scope to quantify decibel compliance specifics; use special flag.
 
 assistant channel=final:
-Appreciate you checking on noise details. This is being forwarded for compliance verification. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted on the noise compliance question. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

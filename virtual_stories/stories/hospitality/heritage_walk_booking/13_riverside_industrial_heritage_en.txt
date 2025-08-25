@@ -43,6 +43,6 @@ assistant channel=analysis:
 Beyond system context—special flag.
 
 assistant channel=final:
-Understood—I'll set this in motion for additional handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood—working on your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -52,5 +52,5 @@ assistant channel=analysis:
 Beyond system context—use the special flag.
 
 assistant channel=final:
-Understood—coordination is underway and updates will be relayed swiftly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood—exploring different approaches. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

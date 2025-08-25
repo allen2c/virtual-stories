@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond protocol; escalate and end.
 
 assistant channel=final:
-I appreciate your diligence. This request for carrier telemetry and route logs is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I appreciate your diligence. Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Calibration reports and dispersion data are being pulled—I’ll update you once they’re ready. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Gathering relevant data on calibration reports and dispersion charts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

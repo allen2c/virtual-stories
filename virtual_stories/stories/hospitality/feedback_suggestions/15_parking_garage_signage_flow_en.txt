@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond facts—use special flag.
 
 assistant channel=final:
-I’ve filed a request to retrieve the monthly incident heatmap and mirror maintenance records from our facilities archive. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Your request for incident and maintenance records is noted. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

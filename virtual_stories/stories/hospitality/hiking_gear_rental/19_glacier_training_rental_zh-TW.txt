@@ -43,6 +43,6 @@ user:
 我這裡有一張第三方的高山攀登證照影本，能幫我查證真偽嗎？
 
 assistant channel=final:
-你的需求已記錄，這項查核正在處理中。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+你的需求已記錄。正在審閱可用憑證來源。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -52,5 +52,5 @@ assistant channel=analysis:
 Beyond scope; use the special flag.
 
 assistant channel=final:
-Acknowledged—clearance and paperwork submission are being routed with priority. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Acknowledged—clearance and paperwork submission. Collecting information on this topic. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

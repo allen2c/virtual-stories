@@ -52,5 +52,5 @@ assistant channel=analysis:
 Beyond system scope; escalate and end.
 
 assistant channel=final:
-Understood—batch-level sourcing and certification vetting is being routed for processing now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood—batch-level sourcing and certification vetting. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

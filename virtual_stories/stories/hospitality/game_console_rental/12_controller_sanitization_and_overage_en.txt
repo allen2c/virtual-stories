@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond facts—use special flag.
 
 assistant channel=final:
-I’ve forwarded a request for last month’s sanitation swab results for the UV cabinet to our health and safety records. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources for last month's sanitation swab results. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

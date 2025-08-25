@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Playlist access and real‑time sound levels are being gathered—I’ll follow up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about the playlist and sound levels. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

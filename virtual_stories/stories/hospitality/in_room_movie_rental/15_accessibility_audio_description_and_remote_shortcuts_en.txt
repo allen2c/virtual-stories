@@ -28,6 +28,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-The current AD‑enabled title list by genre is being compiled—I'll share it shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The current AD‑enabled title list by genre is outside this context. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

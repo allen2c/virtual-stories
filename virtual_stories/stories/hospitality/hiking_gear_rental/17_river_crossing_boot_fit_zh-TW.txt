@@ -45,6 +45,6 @@ user:
 太細心了！能不能依據我手錶的心率資料，幫我排一個強度遞增的訓練走法？
 
 assistant channel=final:
-感謝你的信任，這項請求正在處理中。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+感謝你的信任。正在評估可行做法。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

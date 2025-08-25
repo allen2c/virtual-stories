@@ -43,6 +43,6 @@ assistant channel=analysis:
 Beyond scope—special flag.
 
 assistant channel=final:
-Thanks for checking—I'll pass this along for further processing. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking—retrieving information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

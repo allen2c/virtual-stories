@@ -25,7 +25,7 @@ assistant channel=analysis:
 They're asking for specialized marine research equipment that's beyond our basic outdoor gear collection. I should acknowledge but indicate this isn't available.
 
 assistant channel=final:
-The underwater lounge is definitely a unique experience! Unfortunately, our equipment collection focuses on basic hiking gear rather than specialized marine sampling tools. I'm looking into research equipment resources for your study. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The underwater lounge is definitely a unique experience! Our equipment collection focuses on basic hiking gear rather than specialized marine sampling tools. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 Helt greit! What about regular thermal hiking layers for tomorrow's coastal walk? And I loved the traditional fish soup last night - is that a local Lofoten recipe?
@@ -43,4 +43,4 @@ assistant channel=analysis:
 This requires detailed oceanographic data analysis that's beyond my role as activities coordinator, even though we work with kelp forest restoration.
 
 assistant channel=final:
-What fascinating research! While we participate in kelp restoration projects, the detailed historical oceanographic data analysis you need would be beyond what I can provide directly. I'm looking into marine research databases for your study. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+What fascinating research! Detailed historical oceanographic data analysis is outside this context. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

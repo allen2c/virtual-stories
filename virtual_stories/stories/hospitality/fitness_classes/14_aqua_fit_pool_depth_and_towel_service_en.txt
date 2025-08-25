@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Water chemistry and filtration cycles are being checked—I’ll report back shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Your question about chemistry and filtration is noted. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

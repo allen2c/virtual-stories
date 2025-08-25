@@ -25,7 +25,7 @@ assistant channel=analysis:
 They're asking for specialized mountaineering equipment that's beyond our standard hiking gear collection. I should acknowledge but indicate this isn't available.
 
 assistant channel=final:
-Glad you enjoyed meeting our gauchos! Unfortunately, our equipment collection focuses on day hiking rather than technical mountaineering gear like ice axes and harnesses. I'm looking into specialized climbing equipment resources for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Glad you enjoyed meeting our gauchos! Our equipment collection focuses on day hiking, not technical mountaineering items like ice axes and harnesses. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 No problema! What about basic hiking poles for the Base Torres trail? And I'm curious - have you spotted any pumas or guanacos recently around the property?
@@ -43,4 +43,4 @@ assistant channel=analysis:
 This requires specialized cartographic data for unexplored climbing routes that would be beyond my regional hiking knowledge and standard trail information.
 
 assistant channel=final:
-That sounds like an incredible expedition! While I'm familiar with the established trails, the detailed cartographic data for unexplored first ascent routes would be beyond what I can provide. I'm looking into specialized mountaineering resources for your planning. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That sounds like an incredible expedition! Detailed cartographic data for unexplored first-ascent routes is outside this context. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

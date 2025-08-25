@@ -52,5 +52,5 @@ assistant channel=analysis:
 Beyond provided context; trigger the flag.
 
 assistant channel=final:
-Absolutely—coordination has been initiated and confirmations will be shared promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Absolutely—compiling available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

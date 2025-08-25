@@ -49,5 +49,5 @@ assistant channel=analysis:
 Battery model not in context; use special flag.
 
 assistant channel=final:
-Great forward planning. I’m confirming the exact battery model number for your in‑room safe now. I’ll handle this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great forward planning. Gathering information on the exact battery model number for your in‑room safe now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

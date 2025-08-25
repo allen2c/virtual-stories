@@ -51,6 +51,6 @@ user:
 對了，稜線北鞍那一段，現在是否有臨時封閉或結霜警示？你能幫我查最新狀態嗎？
 
 assistant channel=final:
-謝謝提醒安全最重要。此項查詢正在處理中。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+謝謝提醒安全最重要。正在檢視可用資源。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 
