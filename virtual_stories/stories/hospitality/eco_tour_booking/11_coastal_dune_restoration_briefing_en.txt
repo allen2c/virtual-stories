@@ -46,6 +46,5 @@ assistant channel=analysis:
 Beyond system; trigger special flag and end.
 
 assistant channel=final:
-Live nesting overlays and wind specifics are being pulled now—I’ll follow up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Live nesting overlays and wind specifics are being reviewed. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

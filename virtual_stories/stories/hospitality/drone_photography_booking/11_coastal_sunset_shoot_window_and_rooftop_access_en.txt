@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-The latest sunset and cloud details are being gathered now. I’ll update you shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for your question about sunset time and cloud cover. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

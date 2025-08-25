@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Tide height and satellite overlays are being fetched now—I’ll update you as they come in. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Tide height and satellite overlays are being reviewed. Assessing current data sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

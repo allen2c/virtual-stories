@@ -49,5 +49,4 @@ assistant channel=analysis:
 Beyond system context (airport security policy). Use special flag.
 
 assistant channel=final:
-Thanks for checking on the staff gate procedure. This is under review with the relevant parties at the moment. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for checking on the staff gate procedure. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Live harbor video access is being arranged, and I’ll follow up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Live harbor video access requires coordination. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

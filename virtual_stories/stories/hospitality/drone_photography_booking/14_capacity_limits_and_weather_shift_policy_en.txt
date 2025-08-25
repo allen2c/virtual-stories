@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Weather specifics are being checked and I’ll share the latest shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Cloud base and visibility details require external sources. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Harbor advisories and current manatee notices are being checked—I’ll update you promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Harbor advisories and current manatee notices are being reviewed. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

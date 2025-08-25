@@ -58,5 +58,4 @@ assistant channel=analysis:
 This asks about a municipality decision beyond our system context. Acknowledge and pass to background agent with the special flag.
 
 assistant channel=final:
-Appreciate the heads-up about the trail schedule. This is being checked with the appropriate team right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Appreciate the heads-up about the trail schedule. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

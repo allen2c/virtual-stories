@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Real‑time pollen and radar details are being compiled—I’ll circle back shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Real‑time pollen and radar details are being reviewed. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

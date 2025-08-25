@@ -52,5 +52,4 @@ assistant channel=analysis:
 Beyond system context (municipal exclusivity). Use special flag.
 
 assistant channel=final:
-Thanks for checking on the exclusivity. This is being coordinated and I’ll ensure it’s routed to the right contacts. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for checking on the exclusivity. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

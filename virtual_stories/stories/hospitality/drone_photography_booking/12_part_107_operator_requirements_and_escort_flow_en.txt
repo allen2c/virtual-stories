@@ -37,6 +37,4 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Airspace notices are being checked and I’ll share the status promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
-
+Local airspace notices and TFR status need verification. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

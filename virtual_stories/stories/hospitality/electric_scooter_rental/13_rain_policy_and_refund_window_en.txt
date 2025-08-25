@@ -49,5 +49,4 @@ assistant channel=analysis:
 Beyond our system context. Use special flag.
 
 assistant channel=final:
-I appreciate you raising the refund guideline question. This is being looked into and tracked for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+I appreciate you raising the refund guideline question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -37,6 +37,4 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Roof sound trend data is being compiled and I’ll share it shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
-
+Roof sound‑level trend details are outside current context. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -50,5 +50,4 @@ assistant channel=analysis:
 Beyond system context (school district policy). Use special flag.
 
 assistant channel=final:
-Thanks for flagging the construction detour question. This is being coordinated with the right contacts for clarity. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for flagging the construction detour question. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
