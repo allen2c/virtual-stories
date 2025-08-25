@@ -77,6 +77,10 @@ The current weather in Boston is 22°C and partly cloudy. 🌤️
 - Tool results are emitted as `tool.<name> channel=commentary to=assistant:` followed by a single-line JSON object.
 - Use `assistant channel=analysis` for private reasoning and planning. Keep it concise.
 - Use `assistant channel=final` for the user-facing reply only.
+- Special flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]`: Used when available tools or system knowledge cannot adequately address the user's question. Simply acknowledge the inquiry and indicate it's being processed - do not promise solutions, transfers, or specific actions.
+    - **When to use:** No suitable tools available, tool outputs insufficient, or system knowledge inadequate
+    - **Response format:** Brief acknowledgment + neutral processing statement (e.g., "I'm looking into this", "This is being processed")
+    - **Requirements:** End response with the flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` - no promises or commitments
 
 ### Automotive example (abridged)
 
@@ -130,6 +134,99 @@ Choose 8:00 AM slot, then confirm with the user.
 
 assistant channel=final:
 Great news—warranty is active, and I can hold the 8:00 AM slot tomorrow. Would you like me to book it and text a confirmation?
+```
+
+### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Examples
+
+#### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Example 1: No proper tool provided
+
+```plaintext
+"""
+Guest asks about local cultural festival happening next week but no relevant tools are available.
+
+ROLES: user (hotel guest interested in local cultural events), assistant (concierge with limited cultural event tools)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+/`/`/`json
+[
+  {"name": "check_room_service_menu", "description": "Get current room service options", "parameters": {"type":"object","properties":{"meal_time":{"type":"string","enum":["breakfast","lunch","dinner"]}},"required":["meal_time"]}, "strict": true}
+]
+/`/`/`
+"""
+
+system:
+You are a hotel concierge assistant. You can help with room service but have limited access to local event information.
+
+user:
+Hi! I heard there's a traditional Japanese festival happening in the city next week. Could you tell me more about it? What activities will there be and how can I get tickets?
+
+assistant channel=analysis:
+The guest is asking about a local cultural festival, but I only have tools for room service. I don't have access to local event databases, festival schedules, or ticketing systems.
+
+assistant channel=final:
+I appreciate your interest in local cultural events! Unfortunately, I don't have access to detailed information about the Japanese festival or ticketing systems at the moment. I'm looking into this inquiry now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+```
+
+#### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Example 2: Tool output can not solve the issues
+
+```plaintext
+"""
+Patient experiences severe allergic reaction to prescribed medication; pharmacy system shows medication data but lacks allergy interaction details.
+
+ROLES: user (patient with medication allergy emergency), assistant (healthcare support with basic medication lookup)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+/`/`/`json
+[
+  {"name": "lookup_medication", "description": "Get basic medication information", "parameters": {"type":"object","properties":{"medication_name":{"type":"string"},"dosage":{"type":"string"}},"required":["medication_name"]}, "strict": true}
+]
+/`/`/`
+"""
+
+system:
+You are a healthcare support assistant. You can look up basic medication information but do not have access to detailed allergy databases or emergency protocols.
+
+user:
+I just took my prescribed amoxicillin 500mg and I'm having severe hives and difficulty breathing. Is this a dangerous allergic reaction? What should I do immediately?
+
+assistant channel=analysis:
+This sounds like a serious allergic reaction. I should check the medication information, but I suspect my basic lookup won't have emergency allergy protocols.
+
+assistant channel=commentary to=tool.lookup_medication:
+{"medication_name": "amoxicillin", "dosage": "500mg"}
+
+tool.lookup_medication channel=commentary to=assistant:
+{"name": "amoxicillin", "dosage": "500mg", "type": "antibiotic", "common_uses": "bacterial infections"}
+
+assistant channel=analysis:
+The tool only provides basic medication info but no allergy reaction protocols or emergency guidance. This appears to be a serious medical emergency requiring immediate professional intervention.
+
+assistant channel=final:
+I understand you're experiencing concerning symptoms after taking amoxicillin. While I can confirm it's an antibiotic, I don't have access to emergency allergy protocols or the detailed medical guidance you need right now. This is being processed urgently. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+```
+
+#### Special Flag `[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]` Example 3: Provided knowledge information in system prompt is not enough to answer the user's question
+
+```plaintext
+"""
+Casual conversation about specific regional wine varietals that goes beyond the assistant's basic wine knowledge.
+
+ROLES: user (wine enthusiast asking about specific regional varietals), assistant (fitness center staff with basic wine knowledge from social events)
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
+"""
+
+system:
+You are a fitness center receptionist. You occasionally help with social wine tasting events and know basic wine categories: red, white, rosé, sparkling. Common varieties include Chardonnay, Cabernet Sauvignon, Pinot Noir, Merlot.
+
+user:
+Hey! I noticed you guys had that wine tasting last month. I'm really into wines from the Douro Valley - do you know anything about the differences between Touriga Nacional and Tinta Roriz aging characteristics in schist soils versus granite? I'm planning a trip there and want to understand the terroir better.
+
+assistant channel=analysis:
+The user is asking about very specific Portuguese wine varieties and soil types in the Douro Valley. My system knowledge only covers basic wine categories and common varietals, not specific regional characteristics or geological soil impacts on aging.
+
+assistant channel=final:
+That sounds like a fascinating wine region! I helped with our basic wine tasting event, but you're asking about some really specific varietals and terroir details that are way beyond what I know about the Douro Valley. I'm looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 ```
 
 ## Features
