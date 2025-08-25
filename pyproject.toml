@@ -7,7 +7,7 @@ dependencies = [
   "openai-agents (>=0.1.0,<1.0.0)",
   "pydantic (>=2)",
   "str-or-none",
-  "universal-message (>=0.3.0,<1.0.0)",
+  "universal-message (>=0.4.0,<1.0.0)",
 ]
 description = "Test to write virtual stories from configure."
 license = { text = "MIT" }
