@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; use special flag and end.
 
 assistant channel=final:
-Price checks across local retailers are being pulled together for you. I’ll follow up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

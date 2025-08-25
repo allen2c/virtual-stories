@@ -54,6 +54,5 @@ assistant channel=analysis:
 Beyond system capabilities; respond with special flag only.
 
 assistant channel=final:
-Appreciate the request—checking on this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

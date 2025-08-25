@@ -55,6 +55,6 @@ assistant channel=analysis:
 This is beyond the system context; respond with the special flag and end.
 
 assistant channel=final:
-I appreciate the request for live retail stock details. I’m having this looked into right away. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

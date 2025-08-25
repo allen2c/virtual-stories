@@ -60,4 +60,4 @@ assistant channel=analysis:
 Guest is asking about supply chain sustainability and vendor standards - this is beyond our standard information. We have supplier guidelines but not detailed vendor sustainability assessment procedures.
 
 assistant channel=final:
-That's an important question about our commitment to sustainable sourcing throughout our entire supply chain. I'm researching our comprehensive vendor evaluation process, environmental standards requirements, and partnerships with certified sustainable suppliers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

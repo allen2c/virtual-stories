@@ -45,5 +45,5 @@ assistant channel=analysis:
 VIN specifics aren’t in system; close with the flag.
 
 assistant channel=final:
-The exact VIN list is being looked up now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

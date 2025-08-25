@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; use special flag and end.
 
 assistant channel=final:
-I’ll get that venue’s seating power details verified and circle back. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

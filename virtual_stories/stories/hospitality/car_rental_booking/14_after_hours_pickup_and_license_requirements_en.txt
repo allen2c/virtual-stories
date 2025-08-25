@@ -36,5 +36,5 @@ assistant channel=analysis:
 DMV records not in system. Use flag.
 
 assistant channel=final:
-The DMV record request is being processed appropriately. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -60,4 +60,4 @@ assistant channel=analysis:
 Guest is asking about staff handling procedures for allergen incidents - this is beyond our standard information. We have incident reporting but not detailed HR procedures.
 
 assistant channel=final:
-That's a very important question about how we handle allergen safety incidents. I'm investigating our complete protocol for staff training, incident documentation, and follow-up procedures for allergen-related situations. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

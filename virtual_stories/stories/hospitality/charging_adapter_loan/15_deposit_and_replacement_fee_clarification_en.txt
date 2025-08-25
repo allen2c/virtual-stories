@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-I’m checking local workspace booth availability and noise levels for you. I’ll report back. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

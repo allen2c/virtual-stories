@@ -60,4 +60,4 @@ assistant channel=analysis:
 Guest is asking about cybersecurity measures - this is beyond our standard hotel information. We provide basic WiFi security but don't have detailed cybersecurity protocols for guest data protection.
 
 assistant channel=final:
-That's an excellent question about data security during travel. I'm looking into our comprehensive cybersecurity protocols and current security measures for guest data protection. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

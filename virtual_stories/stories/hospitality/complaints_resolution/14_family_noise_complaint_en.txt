@@ -60,4 +60,4 @@ assistant channel=analysis:
 Guest is asking about noise complaint handling during events - this is beyond our standard information. We have event management but not specific protocols for noise complaints during scheduled activities.
 
 assistant channel=final:
-That's a thoughtful question about balancing family entertainment with guest comfort during our events. I'm checking our complete protocols for event noise management, sound mitigation strategies, and accommodation options for light sleepers during scheduled activities. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

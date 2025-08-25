@@ -45,5 +45,5 @@ assistant channel=analysis:
 Brand not in system; end with special flag.
 
 assistant channel=final:
-Seat brand details are being checked for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

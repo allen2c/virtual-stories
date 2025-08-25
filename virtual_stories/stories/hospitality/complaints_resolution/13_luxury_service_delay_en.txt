@@ -60,4 +60,4 @@ assistant channel=analysis:
 Guest is asking about compensation policies for luxury guests - this is beyond our standard information. We have service recovery guidelines but not detailed compensation policies for elite guests.
 
 assistant channel=final:
-That's an excellent question about our compensation approach for our most valued luxury guests. I'm reviewing our comprehensive compensation protocols and personalized recovery packages for elite guest experiences. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

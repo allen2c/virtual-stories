@@ -45,5 +45,5 @@ assistant channel=analysis:
 Out of scope; finish with special flag.
 
 assistant channel=final:
-The battery cell origin is being verified for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -46,6 +46,6 @@ assistant channel=analysis:
 Beyond system scope; use special flag and end.
 
 assistant channel=final:
-Understood—real‑time airport seating availability is being checked for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 
