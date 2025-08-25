@@ -43,5 +43,4 @@ assistant channel=analysis:
 Beyond system scope—no live interbank matching or waiver commitments here. Use special flag.
 
 assistant channel=final:
-I understand you’re comparing with interbank rates. This is being assessed for rate review and fee consideration. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Rate lock considerations require review. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

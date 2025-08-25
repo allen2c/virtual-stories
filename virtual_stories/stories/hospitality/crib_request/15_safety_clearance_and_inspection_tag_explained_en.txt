@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Those historical inspection entries are being gathered now and I’ll share them when ready. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Historical inspection entries require additional retrieval. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

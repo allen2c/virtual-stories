@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-I wish I could check that live, but I don’t have access to real-time ticket availability. I’m looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

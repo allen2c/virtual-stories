@@ -44,6 +44,5 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Request received—processing now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

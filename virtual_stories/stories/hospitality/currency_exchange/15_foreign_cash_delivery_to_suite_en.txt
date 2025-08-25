@@ -43,5 +43,4 @@ assistant channel=analysis:
 Beyond system scope. Use special flag.
 
 assistant channel=final:
-Noted on the airport coordination request. This is being queued for logistics review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Airport coordination details require logistics review. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

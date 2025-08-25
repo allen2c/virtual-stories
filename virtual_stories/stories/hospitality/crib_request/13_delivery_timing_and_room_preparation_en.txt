@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-I’m arranging access to the exact assembly documentation and will share it soon. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Access to the exact assembly documentation requires further review. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

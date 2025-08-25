@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Inventory brand and serial details are being compiled and I’ll provide them shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Inventory brand and serial details require additional confirmation. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

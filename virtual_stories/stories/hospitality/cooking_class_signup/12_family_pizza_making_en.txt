@@ -3,6 +3,7 @@ Family wants to sign up for interactive pizza-making class with kids.
 
 ROLES: user (family with children interested in fun cooking experience), assistant (family culinary coordinator at family-friendly hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -60,4 +61,4 @@ assistant channel=analysis:
 Guest is asking about transportation services - this is beyond our standard hotel information. We provide local area information but not detailed transportation logistics.
 
 assistant channel=final:
-That's a great question about getting around Sonoma County with a family. I'm checking our transportation partnerships, family-friendly shuttle options, and the best ways to explore local attractions safely. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's a great question about getting around Sonoma County with a family. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -3,6 +3,7 @@ Couple wants to sign up for wine pairing dinner and cooking class experience.
 
 ROLES: user (couple interested in culinary and wine experience), assistant (culinary experience coordinator at wine country hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -60,4 +61,4 @@ assistant channel=analysis:
 Guest is asking about grape sourcing - this is beyond our standard information. While we grow estate grapes, we don't have detailed information about all grape sourcing for our wine production.
 
 assistant channel=final:
-That's a wonderful question about our viticulture and grape sourcing practices. I'm looking into our complete grape sourcing strategy, estate vineyard details, and any supplemental grape purchases we make. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's a wonderful question about our viticulture and grape sourcing practices. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

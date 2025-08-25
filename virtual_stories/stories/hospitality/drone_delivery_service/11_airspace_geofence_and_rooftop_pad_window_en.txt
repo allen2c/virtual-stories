@@ -46,6 +46,5 @@ assistant channel=analysis:
 Beyond the provided system context; use the special flag and end.
 
 assistant channel=final:
-Harbor wind specifics are being checked and I’ll update you shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Harbor wind specifics require additional verification. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -43,5 +43,4 @@ assistant channel=analysis:
 Beyond system scope; use special flag.
 
 assistant channel=final:
-Thanks for raising that request. This is being reviewed for specialized authentication options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Authentication options require additional review. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

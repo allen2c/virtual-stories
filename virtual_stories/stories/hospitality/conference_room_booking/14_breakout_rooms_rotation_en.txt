@@ -44,6 +44,5 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Logged—reviewing solutions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Acknowledged. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

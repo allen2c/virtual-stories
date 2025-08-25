@@ -46,5 +46,4 @@ assistant channel=analysis:
 This is beyond system context since we do not provide live market checks or rate beating outside posted policy; invoke special flag and end.
 
 assistant channel=final:
-I appreciate you seeking the best possible rate. This is being reviewed for options on rate evaluation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Rate evaluation requires further review. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

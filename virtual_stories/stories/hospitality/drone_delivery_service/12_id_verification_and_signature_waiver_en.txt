@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-ETA details are being verified and I’ll keep you posted. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+ETA details require further verification. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

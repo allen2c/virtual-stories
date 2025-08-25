@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-That timing makes all the difference. I don’t have real-time marine layer forecasts at the moment. I’m looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

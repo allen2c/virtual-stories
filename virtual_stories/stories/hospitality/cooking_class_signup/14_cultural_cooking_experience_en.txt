@@ -3,6 +3,7 @@ Cultural enthusiast wants to sign up for authentic international cooking classes
 
 ROLES: user (cultural traveler interested in authentic cuisine), assistant (cultural culinary curator at international hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -60,4 +61,4 @@ assistant channel=analysis:
 Guest is asking about cultural sensitivity - this is beyond our standard information. We have cultural sensitivity protocols but not detailed handling procedures.
 
 assistant channel=final:
-That's a very thoughtful and important question about cultural sensitivity in culinary education. I'm looking into our complete approach to cultural representation, community partnerships, and respectful culinary education practices. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's a very thoughtful and important question about cultural sensitivity in culinary education. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

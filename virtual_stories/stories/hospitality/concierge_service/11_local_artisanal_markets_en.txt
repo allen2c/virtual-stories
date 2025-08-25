@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system context; use special flag.
 
 assistant channel=final:
-I love those demonstrations too. I don’t have real-time vendor schedules to confirm tonight’s line-up. I’m looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

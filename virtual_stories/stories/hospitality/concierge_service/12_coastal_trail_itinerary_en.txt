@@ -37,6 +37,5 @@ assistant channel=analysis:
 Real-time tide data is beyond system context; use special flag.
 
 assistant channel=final:
-Tide timing is great to plan around, but I don’t have real-time tide data access right now. I’m looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

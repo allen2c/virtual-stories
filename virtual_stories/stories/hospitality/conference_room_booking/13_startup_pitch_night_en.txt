@@ -44,6 +44,5 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Understood—looking into it now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

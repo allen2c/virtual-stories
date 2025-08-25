@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Stability documentation is being reviewed and I’ll update you once confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Stability documentation requires additional review. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

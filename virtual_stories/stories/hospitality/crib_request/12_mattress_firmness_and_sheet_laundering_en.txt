@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Manufacturer certification details are being checked and I’ll share them once verified. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Manufacturer certification details require additional verification. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

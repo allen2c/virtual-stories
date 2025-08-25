@@ -3,6 +3,7 @@ Aspiring chef wants to sign up for professional training and advanced techniques
 
 ROLES: user (aspiring chef interested in professional training), assistant (culinary education director at culinary institute hotel)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS: null
 """
 
 system:
@@ -69,4 +70,4 @@ assistant channel=analysis:
 Guest is asking about job placement rates - this is beyond our standard information. We track graduate outcomes but don't have specific placement statistics in our standard information.
 
 assistant channel=final:
-That's a great question about our graduate success and career outcomes. I'm researching our comprehensive job placement statistics, graduate employment rates, and success stories from our alumni network. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That's a great question about our graduate success and career outcomes. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-A current conditions brief is being compiled and I’ll share it shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Current conditions information requires further review. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

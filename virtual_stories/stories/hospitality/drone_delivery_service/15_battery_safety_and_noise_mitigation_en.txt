@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-A noise profile readout is being prepared for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Noise profile details require additional review. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

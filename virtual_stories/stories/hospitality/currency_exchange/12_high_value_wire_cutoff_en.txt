@@ -43,5 +43,4 @@ assistant channel=analysis:
 Beyond system scope: hotel does not send or track bank wires; only issues receipts. Use special flag.
 
 assistant channel=final:
-Thanks for checking on that timing. This is being coordinated for follow‑up on wire tracking. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Wire tracking timing requires additional verification. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

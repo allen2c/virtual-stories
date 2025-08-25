@@ -37,6 +37,5 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Recall status is being verified and I’ll update you when confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Recall status requires additional verification. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
