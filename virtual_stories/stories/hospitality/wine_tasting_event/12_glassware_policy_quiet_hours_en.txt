@@ -34,6 +34,5 @@ assistant channel=analysis:
 External lab analysis; flag.
 
 assistant channel=final:
-I’m requesting the official sulfite analyses for tonight’s flight from our supplier. We’ll share once received. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for the request. Retrieving information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

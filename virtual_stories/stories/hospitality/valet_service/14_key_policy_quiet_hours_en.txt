@@ -34,6 +34,6 @@ assistant channel=analysis:
 External and sensitive; flag.
 
 assistant channel=final:
-I’m coordinating with security regarding your request for after-midnight footage access. We’ll provide next steps once cleared. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Processing your request for after-midnight footage access. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

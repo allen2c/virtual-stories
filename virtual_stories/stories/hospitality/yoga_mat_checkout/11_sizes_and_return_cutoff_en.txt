@@ -39,6 +39,6 @@ assistant channel=analysis:
 No heated mats in system; beyond scope—flag.
 
 assistant channel=final:
-Heated mat reservations aren’t part of the current program. I’m sending this for background handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Heated mat reservations aren't part of the current program. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

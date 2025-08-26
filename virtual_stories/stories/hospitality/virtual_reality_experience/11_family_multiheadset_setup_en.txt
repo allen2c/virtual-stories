@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond session notes; escalate and end.
 
 assistant channel=final:
-Appreciated. The request for headset telemetry and raw IMU logs is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Let me research this for you regarding headset telemetry and raw IMU logs. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

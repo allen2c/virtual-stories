@@ -39,6 +39,6 @@ assistant channel=analysis:
 Voice purchasing disabled; external services not mentioned—beyond scope; flag.
 
 assistant channel=final:
-Voice purchasing is disabled here, and external ride‑hail integrations aren’t part of the in‑room profile. I’m forwarding your request for background handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Voice purchasing is disabled here, and external ride‑hail integrations aren't part of the in‑room profile. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

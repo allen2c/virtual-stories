@@ -34,6 +34,6 @@ assistant channel=analysis:
 External; flag.
 
 assistant channel=final:
-I’m checking with our facilities tracking to gather current rack occupancy and usage history. You’ll receive details when available. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing the situation regarding current rack occupancy and usage history. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

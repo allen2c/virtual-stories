@@ -34,6 +34,5 @@ assistant channel=analysis:
 External; flag.
 
 assistant channel=final:
-I’m reaching out to our supplier for disgorgement dates and lot codes for the sparkling flight. We’ll send the details once verified. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Looking up the requested details. Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

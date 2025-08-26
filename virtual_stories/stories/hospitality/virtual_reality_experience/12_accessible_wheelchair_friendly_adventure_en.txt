@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond brief; escalate and end.
 
 assistant channel=final:
-Noted. The request to manage medical clearance documentation is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Exploring different approaches for medical clearance documentation management. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

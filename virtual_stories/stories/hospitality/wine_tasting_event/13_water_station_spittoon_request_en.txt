@@ -34,6 +34,5 @@ assistant channel=analysis:
 External data; flag.
 
 assistant channel=final:
-I’m requesting the detailed pH, titratable acidity, and residual sugar specs from our wine partners for tonight’s lineup. We’ll share once confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Gathering relevant data. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

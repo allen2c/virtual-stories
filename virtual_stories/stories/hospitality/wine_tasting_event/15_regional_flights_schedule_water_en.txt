@@ -25,6 +25,5 @@ assistant channel=analysis:
 Producer list external; flag.
 
 assistant channel=final:
-I’m requesting tonight’s producer lineup from our supplier now and will share it as soon as it’s confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Looking up the latest information. Compiling available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

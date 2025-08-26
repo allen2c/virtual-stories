@@ -51,5 +51,4 @@ assistant channel=analysis:
 VLAN tagging available only on request at booking time; specific marking request today is beyond context.
 
 assistant channel=final:
-I’m coordinating that specialized marking request. I’ll follow up on availability for today’s show setup. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Your marking request is understood. Assessing available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

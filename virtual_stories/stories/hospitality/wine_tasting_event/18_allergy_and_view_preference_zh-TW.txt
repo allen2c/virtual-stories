@@ -49,5 +49,4 @@ assistant channel=analysis:
 超出系統範圍。
 
 assistant channel=final:
-已記錄您的拍攝與即時雲端需求，相關協調正在進行，完成後第一時間回覆您。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+已記錄您的需求。正在確認相關細節。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

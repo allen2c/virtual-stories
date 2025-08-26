@@ -49,5 +49,4 @@ assistant channel=analysis:
 Extension beyond system; use special flag.
 
 assistant channel=final:
-I’m working on extending the daypass access window for you this evening. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

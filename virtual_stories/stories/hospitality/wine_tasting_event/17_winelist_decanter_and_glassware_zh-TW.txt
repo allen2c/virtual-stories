@@ -54,5 +54,4 @@ assistant channel=analysis:
 超出系統範圍。
 
 assistant channel=final:
-我已經記錄您的垂直品飲與文件需求，相關安排正在處理並同步進度給您。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+已記錄您的需求。正在彙整可用資料。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -30,6 +30,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Studio hour extensions aren’t in our current schedule. I’m forwarding your request for background consideration. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Studio hour extensions aren't in our current schedule. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

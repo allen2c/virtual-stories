@@ -48,5 +48,4 @@ assistant channel=analysis:
 超出系統資訊。
 
 assistant channel=final:
-我已經記錄您的專車與導覽及文件需求，後續安排與條款我會持續更新給您。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+已記錄您的需求。正在檢視可行方案。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond snapshot; escalate and end.
 
 assistant channel=final:
-Acknowledged. The compliance audit documentation pack request is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Retrieving information on the compliance audit documentation pack. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

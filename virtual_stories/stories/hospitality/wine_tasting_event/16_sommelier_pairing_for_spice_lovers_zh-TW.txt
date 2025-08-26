@@ -77,5 +77,4 @@ assistant channel=analysis:
 此需求超出系統提供的酒單與資料範圍，屬超出情境的特別要求。
 
 assistant channel=final:
-已收到您的偏好與資料需求，這項特別安排我正協調相關單位處理，稍後更新您最新進度。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+已收到您的偏好與資料需求。正在檢視可行選項。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

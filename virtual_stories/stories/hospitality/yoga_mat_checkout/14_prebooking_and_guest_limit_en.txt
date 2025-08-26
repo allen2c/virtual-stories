@@ -21,6 +21,6 @@ assistant channel=analysis:
 No reservations; beyond scope—flag.
 
 assistant channel=final:
-Setting holds in advance isn’t part of our loan policy. I’ll queue your request for background review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Setting holds in advance isn't part of our loan policy. Working on your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

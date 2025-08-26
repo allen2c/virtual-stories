@@ -34,6 +34,5 @@ assistant channel=analysis:
 External booking details; flag.
 
 assistant channel=final:
-I’m checking the cellar’s private slot for 16:15 and requesting their booking link for you. We’ll update you once confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Reviewing available resources. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

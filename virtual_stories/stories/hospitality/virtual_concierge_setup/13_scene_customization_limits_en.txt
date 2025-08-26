@@ -39,6 +39,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Experimental APIs aren’t part of the in‑room configuration. I’ll pass this to background handling for assessment. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Experimental APIs aren't part of the in‑room configuration. Compiling available data for assessment. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

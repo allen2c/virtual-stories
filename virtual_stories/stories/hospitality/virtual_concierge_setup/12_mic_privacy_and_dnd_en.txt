@@ -39,6 +39,6 @@ assistant channel=analysis:
 No third‑party skill installs; beyond scope; flag.
 
 assistant channel=final:
-The device profile doesn’t include third‑party skill installation. I’m queuing this for background review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+The device profile doesn't include third‑party skill installation. Investigating potential answers. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

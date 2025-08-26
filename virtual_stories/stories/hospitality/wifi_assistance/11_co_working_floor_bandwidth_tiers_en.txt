@@ -61,5 +61,4 @@ assistant channel=analysis:
 Hardware model and per-desk queue settings are beyond system context.
 
 assistant channel=final:
-I appreciate the optimization question. I’m checking on the specific hardware model and per-desk queue options for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for the detailed question. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

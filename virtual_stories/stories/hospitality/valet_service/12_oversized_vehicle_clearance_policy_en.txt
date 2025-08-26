@@ -25,7 +25,7 @@ assistant channel=analysis:
 No roof cargo in garage if exceeds limit; storage not listed.
 
 assistant channel=final:
-We can’t accept roof cargo in the garage if it exceeds clearance at entry. We’ll assist with unloading at the curb and secure the vehicle in suitable parking.
+We can't accept roof cargo in the garage if it exceeds clearance at entry. Unloading assistance is available at the curb, and the vehicle can be secured in suitable parking.
 
 user:
 Could you share the city’s temporary curb permit issuance system API docs?
@@ -34,6 +34,6 @@ assistant channel=analysis:
 External docs; flag.
 
 assistant channel=final:
-I’m coordinating with our city liaison to obtain the curb permit API documentation for your reference. We’ll update you shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Gathering relevant data on the curb permit API documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -50,5 +50,4 @@ assistant channel=analysis:
 Firewall changes beyond context; use special flag.
 
 assistant channel=final:
-I’m coordinating that port configuration request with our network team for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Analyzing the port configuration request. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

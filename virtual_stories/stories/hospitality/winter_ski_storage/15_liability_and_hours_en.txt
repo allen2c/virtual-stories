@@ -30,6 +30,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-After-hours extension isn’t part of our current storage operation. I’ll have this reviewed in the background. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+After-hours extension isn't part of our current storage operation. Gathering relevant data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

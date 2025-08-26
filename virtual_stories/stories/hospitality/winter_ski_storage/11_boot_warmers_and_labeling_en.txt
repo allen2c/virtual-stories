@@ -39,6 +39,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Race‑wax services aren’t part of our on‑site setup. I’m passing this to background handling for options nearby. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Race‑wax services aren't part of our on‑site setup. Looking up the latest information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

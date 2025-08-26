@@ -30,6 +30,6 @@ assistant channel=analysis:
 Valuables should remain with guests; beyond scope—flag.
 
 assistant channel=final:
-We keep the storage attended, but valuables like drones should stay with you. I’ll route this request for special handling in the background. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+We keep the storage attended, but valuables like drones should stay with you. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

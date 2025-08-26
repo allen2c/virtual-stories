@@ -21,6 +21,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Portico aerosol use isn’t covered in our storage policy. I’m routing this for background follow‑up. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Portico aerosol use isn't covered in our storage policy. Examining the possibilities. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

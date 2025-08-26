@@ -21,6 +21,6 @@ assistant channel=analysis:
 One per registered guest; beyond scope to loan to non‑guests—flag.
 
 assistant channel=final:
-Loans are one mat per registered guest. For non‑guest provisioning, I’m sending your request for background handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Loans are one mat per registered guest. For non‑guest provisioning, digging into this question. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

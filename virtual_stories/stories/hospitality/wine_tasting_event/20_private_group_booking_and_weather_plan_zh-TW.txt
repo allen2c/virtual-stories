@@ -50,5 +50,4 @@ assistant channel=analysis:
 超出系統範圍。
 
 assistant channel=final:
-您提到的演出與特效及相關文件需求我已送交專責窗口進行評估，最新結果會第一時間同步您。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+已收到您的需求。正在評估可行選項。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

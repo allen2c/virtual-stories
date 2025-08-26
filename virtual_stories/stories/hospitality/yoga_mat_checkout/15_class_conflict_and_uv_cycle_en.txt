@@ -30,6 +30,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Public calendar publishing isn’t part of our current setup. I’m submitting your request for background follow‑up. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Public calendar publishing isn't part of our current setup. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

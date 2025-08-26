@@ -34,6 +34,6 @@ assistant channel=analysis:
 External tracking; flag.
 
 assistant channel=final:
-I’m checking with our garage system about retrieving movement breadcrumbs for your vehicle. We’ll follow up once verified. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Examining the possibilities for vehicle movement breadcrumb data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

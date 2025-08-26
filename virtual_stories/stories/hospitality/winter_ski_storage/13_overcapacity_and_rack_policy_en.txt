@@ -30,6 +30,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-Adding racks overnight isn’t something we can implement on the spot. I’m sending this request to be handled in the background. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Adding racks overnight isn't something we can implement on the spot. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

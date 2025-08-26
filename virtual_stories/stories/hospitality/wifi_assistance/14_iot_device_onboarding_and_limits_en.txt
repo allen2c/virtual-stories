@@ -50,5 +50,4 @@ assistant channel=analysis:
 Isolation changes beyond context; special flag.
 
 assistant channel=final:
-I’m checking on an exception for device isolation for your room configuration now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Evaluating potential configurations. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

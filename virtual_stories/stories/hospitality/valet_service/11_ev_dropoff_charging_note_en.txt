@@ -34,6 +34,6 @@ assistant channel=analysis:
 External real-time logs; flag.
 
 assistant channel=final:
-I’m requesting the current occupancy feed and kWh session logs from our facilities system for your review. We’ll follow up promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Looking up the latest information on occupancy feeds and kWh session logs. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 
