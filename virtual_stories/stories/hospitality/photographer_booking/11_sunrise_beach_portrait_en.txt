@@ -3,8 +3,11 @@ Guest books sunrise beach portrait session; asks about wardrobe and deliverables
 Includes small talk, in-scope info, ends with special flag.
 
 ROLES: user (guest planning portraits), assistant (concierge coordinating on-site photographers)
-CHANNELS: analysis, final
-TOOLS: null
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -41,5 +44,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Appreciated—portfolio access and permit coordination are being advanced right away. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted on the portfolio and permit. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

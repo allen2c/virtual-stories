@@ -29,7 +29,7 @@ assistant channel=analysis:
 Exact cap not specified; use special flag for precise cap.
 
 assistant channel=final:
-I’m confirming the exact maximum headcount for a private rooftop session so we can plan appropriately. I’ll take care of this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Looking up the latest information on maximum headcount for private rooftop sessions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 user:
 The rooftop lanterns at dusk are charming.

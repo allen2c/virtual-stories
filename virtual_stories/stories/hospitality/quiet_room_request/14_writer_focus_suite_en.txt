@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-System notifications and maintenance coordination are being routed and status updates will follow. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+System notifications and maintenance coordination noted. Gathering relevant data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

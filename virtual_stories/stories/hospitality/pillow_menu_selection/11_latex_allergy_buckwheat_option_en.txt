@@ -3,7 +3,10 @@ Latex allergy guidance with buckwheat hull and microfiber options.
 
 ROLES: user (guest with latex allergy choosing pillows), assistant (linen services agent advising pillow menu and hygiene)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
-TOOLS: null
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -38,6 +41,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Good question for sleep comfort. Current in‑room humidity isn’t included in my context. I’m checking this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Good question for sleep comfort. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

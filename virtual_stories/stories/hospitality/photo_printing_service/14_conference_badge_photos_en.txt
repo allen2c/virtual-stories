@@ -28,5 +28,5 @@ assistant channel=analysis:
 Background/shadow edits beyond context; use special flag.
 
 assistant channel=final:
-Thanks for asking about cleanup—we’re having that image-editing option reviewed for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about cleanup. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

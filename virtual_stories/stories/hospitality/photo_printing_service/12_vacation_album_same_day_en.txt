@@ -28,5 +28,5 @@ assistant channel=analysis:
 Borderless specifics beyond context; use special flag.
 
 assistant channel=final:
-Great eye for detail—we’re confirming borderless sizing specs now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great eye for detail. Assessing the sizing specifics. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

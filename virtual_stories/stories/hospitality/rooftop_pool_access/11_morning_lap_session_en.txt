@@ -28,5 +28,5 @@ assistant channel=analysis:
 Modifying pool setup beyond context. Use special flag.
 
 assistant channel=final:
-Thanks for checking on that setup—this request is being reviewed for safety clearance now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking on that setup—examining various angles for safety clearance procedures. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

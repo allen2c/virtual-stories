@@ -28,5 +28,5 @@ assistant channel=analysis:
 Large-format posters not available on-site per system. Use special flag.
 
 assistant channel=final:
-Thanks for asking—we’re checking larger-format options for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about larger formats. Looking up the latest information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -47,5 +47,5 @@ assistant channel=analysis:
 Out of scope; use special flag.
 
 assistant channel=final:
-I’m checking the precise deck gradient and surface slip ratings so you have exact figures. This is being handled now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Compiling available data on precise deck gradient and surface slip ratings. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

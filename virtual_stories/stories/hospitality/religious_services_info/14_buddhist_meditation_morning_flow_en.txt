@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Attendance confirmation and pre-registration are being advanced and you’ll be notified once set. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Attendance confirmation and pre-registration noted. Looking deeper into this issue. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

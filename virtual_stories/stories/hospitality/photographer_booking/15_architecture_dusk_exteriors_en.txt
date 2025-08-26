@@ -3,8 +3,11 @@ Architecture dusk exteriors request; asks about tripod zones and reflections.
 Small talk, in-scope policy, ends with special flag.
 
 ROLES: user (architect guest), assistant (concierge coordinating exterior photography rules)
-CHANNELS: analysis, final
-TOOLS: null
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -40,5 +43,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Security coordination and area reservation are being processed and updates will follow promptly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking on access logistics. Reviewing available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

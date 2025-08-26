@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Taking note of the live music and fireworks request. This is being relayed to our external events partners. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Taking note of the live music and fireworks request. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

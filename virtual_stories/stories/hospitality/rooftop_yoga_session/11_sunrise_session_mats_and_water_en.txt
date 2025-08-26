@@ -49,5 +49,5 @@ assistant channel=analysis:
 Weather guarantee beyond context; use special flag.
 
 assistant channel=final:
-I’m reviewing the weather safety thresholds for rooftop classes to confirm how wind conditions affect tomorrow’s session. I’ll move this forward now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing the documentation on weather safety thresholds for rooftop classes. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -3,7 +3,10 @@ Couple mixed pillow preferences with labeling and turn-down notes.
 
 ROLES: user (guest coordinating pillows for two), assistant (linen services setting up mixed pillow types and labels)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
-TOOLS: null
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -36,6 +39,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Great planning for laundry timing. Live equipment status isn’t in my current context. I’m checking on this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great planning for laundry timing. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

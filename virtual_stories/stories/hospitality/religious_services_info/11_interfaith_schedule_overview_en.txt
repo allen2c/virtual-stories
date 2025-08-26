@@ -42,5 +42,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Acknowledged—time confirmation and shuttle reservations are being handled and tracked. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Acknowledged—time confirmation and shuttle reservations noted. I'm looking into this. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

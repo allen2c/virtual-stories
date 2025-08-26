@@ -3,8 +3,11 @@ Corporate team requests pop-up headshot station; asks about lighting and deliver
 Dialogue with small talk, in-scope facts, and special flag.
 
 ROLES: user (team coordinator), assistant (concierge arranging photographers and venues)
-CHANNELS: analysis, final
-TOOLS: null
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -41,5 +44,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Scheduling and access integration are being progressed with priority and will be confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Appreciate the integration detail. Assessing options now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

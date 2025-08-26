@@ -3,7 +3,10 @@ Neck injury elevated sleep setup with wedge substitute guidance.
 
 ROLES: user (guest recovering from neck strain), assistant (linen services arranging elevated sleep configuration)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
-TOOLS: null
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -36,6 +39,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-That’s a precise check. The current barometric pressure isn’t included in my context. I’m looking into it now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That’s a precise check. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

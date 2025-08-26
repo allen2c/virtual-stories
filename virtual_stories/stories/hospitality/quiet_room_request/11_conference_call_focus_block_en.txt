@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Floor signage and connection testing are being initiated with updates to follow. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Floor signage and connection testing requests noted. Compiling available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

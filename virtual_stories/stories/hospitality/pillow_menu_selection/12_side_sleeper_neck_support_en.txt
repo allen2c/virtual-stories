@@ -3,7 +3,10 @@ Side-sleeper neck support selection and height stacking guidance.
 
 ROLES: user (side sleeper seeking neck support), assistant (linen services advising pillow height and options)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
-TOOLS: null
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -36,6 +39,6 @@ assistant channel=analysis:
 Out of scope unless provided; special flag.
 
 assistant channel=final:
-Nice detail‑oriented question. Specific sheet thread count isn’t in my current context. I’ll look into it now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Nice detail‑oriented question. Checking available information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Noted regarding minutes. This is being allocated for external transcription review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted regarding minutes. Looking into available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

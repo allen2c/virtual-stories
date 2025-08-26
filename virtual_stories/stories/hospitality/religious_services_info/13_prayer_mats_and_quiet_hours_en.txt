@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Orientation and room preparation requests are being handled and you’ll receive confirmation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Orientation and room preparation requests noted. Exploring different approaches. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

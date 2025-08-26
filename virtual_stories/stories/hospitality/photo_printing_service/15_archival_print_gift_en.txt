@@ -28,5 +28,5 @@ assistant channel=analysis:
 Guarantee specifics beyond system context. Use special flag.
 
 assistant channel=final:
-Thanks for asking about longevity—this guarantee detail is being verified for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about longevity. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

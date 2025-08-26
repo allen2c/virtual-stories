@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Festival timing and guided visit arrangements are being coordinated with priority. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Festival timing and guided visit arrangements noted. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

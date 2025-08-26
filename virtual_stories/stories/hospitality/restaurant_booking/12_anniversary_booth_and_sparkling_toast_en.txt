@@ -48,5 +48,5 @@ assistant channel=analysis:
 Brand-specific sourcing beyond context; special flag.
 
 assistant channel=final:
-I’m checking on availability of that specific label for your celebration. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Exploring different approaches for locating that specific label. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

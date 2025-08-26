@@ -28,5 +28,5 @@ assistant channel=analysis:
 Holding spots beyond context. Use special flag.
 
 assistant channel=final:
-I see the timing—this hold request is being checked with the team now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I see the timing—investigating potential answers with the team. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

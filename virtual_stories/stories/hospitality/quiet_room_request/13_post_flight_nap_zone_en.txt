@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Calendar coordination and shower preparation are being arranged and you’ll get a prompt. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Calendar coordination and shower preparation noted. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

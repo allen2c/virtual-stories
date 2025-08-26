@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Noted on the micro‑allocation request. This is being coordinated with procurement partners. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted on the micro‑allocation request. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

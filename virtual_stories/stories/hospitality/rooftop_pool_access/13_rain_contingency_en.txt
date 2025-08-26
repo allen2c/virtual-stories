@@ -28,5 +28,5 @@ assistant channel=analysis:
 Proactive texting beyond context. Use special flag.
 
 assistant channel=final:
-Thanks for the heads-up—that notification request is being set up for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the heads-up—retrieving information on notification options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

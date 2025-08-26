@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Status verification and deli coordination are underway and will be relayed as they finalize. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Status verification and deli coordination noted. Digging into this question. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

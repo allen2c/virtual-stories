@@ -38,5 +38,5 @@ assistant channel=analysis:
 Signed assurance beyond context; shared kitchen noted; special flag.
 
 assistant channel=final:
-I’m arranging a formal review of allergen controls and documentation for your omakase seating. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Accessing relevant resources to review allergen controls and documentation for your seating. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

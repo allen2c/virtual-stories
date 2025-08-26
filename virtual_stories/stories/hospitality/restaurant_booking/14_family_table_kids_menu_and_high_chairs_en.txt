@@ -48,5 +48,5 @@ assistant channel=analysis:
 Stroller parking at host stand; extra space beside table beyond context; special flag.
 
 assistant channel=final:
-I’m arranging additional stroller space in coordination with our host stand layout. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Working on your request for additional stroller space arrangements. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

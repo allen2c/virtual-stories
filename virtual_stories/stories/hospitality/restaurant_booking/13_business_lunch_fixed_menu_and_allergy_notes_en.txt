@@ -48,5 +48,5 @@ assistant channel=analysis:
 Guarantee beyond context; shared environment disclosed; special flag.
 
 assistant channel=final:
-I’m confirming cross-contact controls specific to severe sesame precautions with the kitchen. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing the situation regarding cross-contact controls for severe sesame precautions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

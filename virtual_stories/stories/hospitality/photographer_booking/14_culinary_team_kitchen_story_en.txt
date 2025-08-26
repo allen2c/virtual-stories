@@ -3,8 +3,11 @@ Restaurant team requests behind-the-scenes kitchen story shoot.
 Dialogue with small talk, in-scope safety/logistics, ends with special flag.
 
 ROLES: user (restaurant manager), assistant (concierge coordinating on-property photo policies)
-CHANNELS: analysis, final
-TOOLS: null
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -41,5 +44,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Access credentials and safety documentation are being advanced for sign-off and will be shared. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood on credentials and documentation. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

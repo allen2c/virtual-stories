@@ -3,8 +3,11 @@ Family reunion garden session; queries about shaded spots and accessibility.
 Small talk, in-scope info, ends with special flag.
 
 ROLES: user (family organizer), assistant (concierge scheduling photography and venue access)
-CHANNELS: analysis, final
-TOOLS: null
+CHANNELS: analysis, commentary, final. Channel must be included for every message.
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -40,5 +43,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Backup venue booking and credential sharing are being arranged and will be communicated shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted on backup and credentials. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

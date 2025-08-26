@@ -30,5 +30,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Lighting adjustments and traffic controls are being coordinated and you’ll receive a confirmation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Lighting adjustments and traffic controls noted. Let me research this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

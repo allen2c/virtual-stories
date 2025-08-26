@@ -47,5 +47,5 @@ assistant channel=analysis:
 Beyond context; use special flag.
 
 assistant channel=final:
-I’m verifying the studio’s HVAC filtration rating to provide exact specifications. I’ll process this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Verifying information on the studio's HVAC filtration rating for exact specifications. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

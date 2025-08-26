@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond context; special flag.
 
 assistant channel=final:
-Proctoring setup and device restrictions are being coordinated and confirmation will be provided. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Proctoring setup and device restrictions noted. Working on your request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

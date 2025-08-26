@@ -28,5 +28,5 @@ assistant channel=analysis:
 Waitlist management beyond context. Use special flag.
 
 assistant channel=final:
-Understood—that same-day waitlist possibility is being checked right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood—digging into this question about same-day waitlist possibilities. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

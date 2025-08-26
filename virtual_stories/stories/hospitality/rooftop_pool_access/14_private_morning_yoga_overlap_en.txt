@@ -28,5 +28,5 @@ assistant channel=analysis:
 Rescheduling private session beyond context. Use special flag.
 
 assistant channel=final:
-I see the timing puzzle—that adjustment is being reviewed with the class coordinator. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I see the timing puzzle—cross-referencing sources on class scheduling adjustments. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

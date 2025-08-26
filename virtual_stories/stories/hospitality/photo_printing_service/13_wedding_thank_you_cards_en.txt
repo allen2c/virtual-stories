@@ -28,5 +28,5 @@ assistant channel=analysis:
 Pantone matching beyond system context. Use special flag.
 
 assistant channel=final:
-Noted—we’re checking the exact color-matching options now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking about Pantone matching. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

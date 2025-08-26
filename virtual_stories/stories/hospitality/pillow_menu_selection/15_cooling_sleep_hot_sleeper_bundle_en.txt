@@ -3,7 +3,10 @@ Cooling sleeper bundle with breathable options and housekeeping cadence.
 
 ROLES: user (hot sleeper seeking cooling pillows), assistant (linen services pairing breathable pillows and service timing)
 CHANNELS: analysis, commentary, final. Channel must be included for every message.
-TOOLS: null
+TOOLS:
+```json
+[]
+```
 """
 
 system:
@@ -28,6 +31,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Great spec question. The exact GSM for pillowcases isn’t in my current context. I’m following up now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great spec question. Checking available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

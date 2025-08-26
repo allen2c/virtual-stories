@@ -49,5 +49,5 @@ assistant channel=analysis:
 Certifications beyond context; shared kitchen disclosed; use special flag.
 
 assistant channel=final:
-I’m confirming supplier certifications and dedicated sourcing details for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Gathering relevant data on supplier certifications and dedicated sourcing protocols. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

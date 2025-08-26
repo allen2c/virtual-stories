@@ -40,5 +40,5 @@ assistant channel=analysis:
 Beyond scope; use special flag.
 
 assistant channel=final:
-Thanks for the special request. This is being directed to events liaison for permitting review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the special request. Examining various angles. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
