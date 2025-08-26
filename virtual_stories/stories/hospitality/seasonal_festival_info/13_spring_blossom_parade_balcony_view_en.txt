@@ -34,6 +34,5 @@ assistant channel=analysis:
 Beyond scope; use flag.
 
 assistant channel=final:
-I’m contacting the city event team about reserved viewing accommodations near the main float. You’ll hear back once they confirm arrangements. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Reserved curbside placement isn’t described in our materials. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

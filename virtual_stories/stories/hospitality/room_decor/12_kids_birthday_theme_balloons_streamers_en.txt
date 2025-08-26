@@ -49,6 +49,6 @@ assistant channel=analysis:
 External performer booking beyond system capabilities.
 
 assistant channel=final:
-That sounds fun! I’m escalating the live entertainment request to our events liaison to review availability and approvals. It’s under review right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That sounds fun. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

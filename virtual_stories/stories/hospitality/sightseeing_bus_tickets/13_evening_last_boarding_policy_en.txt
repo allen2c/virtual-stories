@@ -39,6 +39,5 @@ assistant channel=analysis:
 No such info in system; beyond context—use flag.
 
 assistant channel=final:
-Thanks for checking—that extension isn’t listed in our current route information. I’ve queued your request for background handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for checking—that extension isn’t listed in our current route information. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

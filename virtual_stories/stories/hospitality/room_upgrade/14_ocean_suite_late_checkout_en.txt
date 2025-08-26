@@ -39,6 +39,5 @@ assistant channel=analysis:
 Out of scope; end with flag.
 
 assistant channel=final:
-This has been queued for the appropriate follow-through, and I’ll circle back with confirmation steps. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This request exceeds what we can confirm here. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

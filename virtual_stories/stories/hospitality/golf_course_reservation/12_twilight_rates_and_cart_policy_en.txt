@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag.
 
 assistant channel=final:
-Rate specifics and minute‑by‑minute sunset timing are being confirmed—I’ll follow up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Verifying information on today's specific timing details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

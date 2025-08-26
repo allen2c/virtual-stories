@@ -34,6 +34,5 @@ assistant channel=analysis:
 External; use flag.
 
 assistant channel=final:
-I’m reaching out to the waterfront organizers to obtain precise firing times and coordinates for photographers. Await a follow-up shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+These specifics aren’t covered by our rooftop guidance. Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

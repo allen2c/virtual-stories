@@ -36,6 +36,5 @@ assistant channel=analysis:
 Beyond system.
 
 assistant channel=final:
-我已請相關單位彙整各樓層鄰梯動線與安靜房間分布，核對後回覆給你最合適的樓層建議。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+這需要額外資料來源。正在交叉比對資訊。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

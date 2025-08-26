@@ -36,6 +36,5 @@ assistant channel=analysis:
 Beyond system.
 
 assistant channel=final:
-我已送出檔期與封館時段的查詢申請，取得確認後立即回覆你安排建議。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+此需求超出目前可用資訊範圍。正在檢視可用資源。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

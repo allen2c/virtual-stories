@@ -46,6 +46,5 @@ assistant channel=analysis:
 Beyond system; trigger flag.
 
 assistant channel=final:
-我已交由相關單位洽詢花色與佈置細節，確認後立即與你回覆可行方案與價格。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+此請求未見於現行指引。正在評估可行選項。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

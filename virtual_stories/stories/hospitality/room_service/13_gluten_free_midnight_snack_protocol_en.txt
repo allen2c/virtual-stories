@@ -48,6 +48,6 @@ assistant channel=analysis:
 Out of scope; special flag and end.
 
 assistant channel=final:
-Understood. Real‑time market pricing isn’t included in my current context. I’m reviewing this request now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -50,6 +50,6 @@ assistant channel=analysis:
 This requires external vendor and rush production—beyond stated system scope.
 
 assistant channel=final:
-Thanks for the creative idea—custom neon is a beautiful touch. I’m routing this urgent personalization to our events coordinator for feasibility and timing. This is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the custom neon idea. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

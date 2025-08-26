@@ -39,6 +39,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Great question for nutrition planning. Detailed macronutrient breakdowns aren’t included in my current context. I’m following up on this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Great question for nutrition planning. Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

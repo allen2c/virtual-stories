@@ -35,6 +35,5 @@ assistant channel=analysis:
 Beyond system; trigger flag.
 
 assistant channel=final:
-我已請相關單位更新今日日出時刻，待確認後立即同步給你。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+此問題不在系統現有資料涵蓋。正在搜尋更多資訊。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

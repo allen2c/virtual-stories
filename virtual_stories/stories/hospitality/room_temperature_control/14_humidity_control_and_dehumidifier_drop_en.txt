@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-I note the need for data export. This is being routed to building monitoring review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I note the need for data export. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

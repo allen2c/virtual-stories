@@ -34,6 +34,6 @@ assistant channel=analysis:
 Outside scope; flag.
 
 assistant channel=final:
-I’m requesting the device OS kernel version and security patch date from our vendor support. We’ll share once confirmed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Accessing relevant resources on device security specifications. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

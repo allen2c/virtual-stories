@@ -25,6 +25,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-I’m requesting documentation on the Energy Saver parameters and thresholds from our building systems team. We’ll share details when they reply. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Examining various angles on the algorithm documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

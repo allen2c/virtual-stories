@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system; special flag and end.
 
 assistant channel=final:
-Current pickup wait estimates are being gathered for you. I’ll follow up soon. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing the situation for rideshare timing. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

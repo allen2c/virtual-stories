@@ -34,6 +34,5 @@ assistant channel=analysis:
 External specifics beyond system; use flag.
 
 assistant channel=final:
-I’m requesting the current tasting pass tiers and the confirmed vendor roster from the fair coordinator. We’ll share the details as soon as they’re provided. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This goes beyond what’s included in our current notes. Gathering relevant data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

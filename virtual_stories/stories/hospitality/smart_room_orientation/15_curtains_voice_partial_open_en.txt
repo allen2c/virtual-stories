@@ -34,6 +34,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-I’m requesting the repository access details from our technology partner for your review. We’ll update you as soon as we receive them. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Looking deeper into this issue for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -48,6 +48,5 @@ assistant channel=analysis:
 Not in provided system details; beyond scope—use special flag.
 
 assistant channel=final:
-I appreciate the idea—our current desk catalog doesn’t include a bundled city‑museum pass with Blue Loop tickets. I’m forwarding this to be handled in the background for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+I appreciate the idea—our current desk catalog doesn’t include a bundled city‑museum pass with Blue Loop tickets. Exploring different approaches. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

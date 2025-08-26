@@ -57,6 +57,6 @@ assistant channel=analysis:
 Out of scope; use special flag and end.
 
 assistant channel=final:
-Appreciate you planning ahead. This specific flight gate detail isn’t available in my current context. I’m looking into this now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Appreciate you planning ahead. Retrieving information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

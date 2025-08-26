@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Understood about visual confirmation. This is being considered for facilities imaging support. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood about visual confirmation. Accessing relevant resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

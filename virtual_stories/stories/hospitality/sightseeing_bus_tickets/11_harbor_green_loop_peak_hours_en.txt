@@ -57,6 +57,5 @@ assistant channel=analysis:
 System says Aquarium combo is not part of offerings. This is beyond the supported catalog; per user request, we must end with special flag.
 
 assistant channel=final:
-Thanks for checking—ticketing for the Aquarium combo isn’t in our current onsite offerings. I’m routing this request for specialized handling now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Thanks for checking—ticketing for the Aquarium combo isn’t in our current onsite offerings. Investigating potential options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

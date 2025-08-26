@@ -34,6 +34,6 @@ assistant channel=analysis:
 Beyond scope; use flag.
 
 assistant channel=final:
-I’m checking with our technology partner to retrieve the detailed firmware changelog for the voice modules. We’ll follow up as soon as it’s available. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Gathering relevant data on the firmware specifications. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

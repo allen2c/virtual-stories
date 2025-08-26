@@ -39,6 +39,5 @@ assistant channel=analysis:
 Out of scope; close with flag.
 
 assistant channel=final:
-I’ve initiated the appropriate follow-up and will report back as soon as it progresses. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This request goes beyond the available options here. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

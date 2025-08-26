@@ -51,6 +51,6 @@ assistant channel=analysis:
 Out of scope; special flag.
 
 assistant channel=final:
-Trip planning sounds fun. Historical traffic data for the aquarium area isn’t within my current context. I’m checking on this request now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Trip planning sounds fun. Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

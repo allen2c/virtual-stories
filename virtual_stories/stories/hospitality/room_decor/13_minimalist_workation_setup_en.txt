@@ -38,6 +38,6 @@ assistant channel=analysis:
 Beyond available décor inventory and scope.
 
 assistant channel=final:
-Understood on the sound treatment need. I’m forwarding the temporary acoustic panel request to our operations team for assessment and timing. It’s being handled now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood on the sound treatment need. Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

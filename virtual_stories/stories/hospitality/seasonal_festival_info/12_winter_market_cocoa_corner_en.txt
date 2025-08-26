@@ -34,6 +34,5 @@ assistant channel=analysis:
 Outside scope; escalate.
 
 assistant channel=final:
-I’m checking with the market organizers for current booth assignments and live crowd guidance. We’ll update you once we have precise details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This information isn’t available in the hotel brief. Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

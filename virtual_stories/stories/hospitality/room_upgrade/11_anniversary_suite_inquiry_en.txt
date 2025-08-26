@@ -41,6 +41,5 @@ assistant channel=analysis:
 Out of scope; finalize with flag.
 
 assistant channel=final:
-I’ve sent this forward for coordinated handling and will share the next steps once prepared. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This requires information beyond the provided hotel guidance. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

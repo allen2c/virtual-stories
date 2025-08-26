@@ -40,6 +40,6 @@ assistant channel=analysis:
 Out of scope; apply special flag.
 
 assistant channel=final:
-That sounds like a beautiful start. The precise sunrise time isn’t within my current context. I’m checking on this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+That sounds like a beautiful start. Looking up the latest information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

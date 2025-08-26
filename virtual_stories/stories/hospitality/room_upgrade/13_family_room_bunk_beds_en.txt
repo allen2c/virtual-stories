@@ -39,6 +39,5 @@ assistant channel=analysis:
 Out of scope; end with flag.
 
 assistant channel=final:
-This is being routed for coordinated review, and I’ll share an update as soon as it’s ready. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This falls outside what’s covered in the current resources. Looking up the latest information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

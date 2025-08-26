@@ -20,7 +20,7 @@ assistant channel=analysis:
 Use fee window and priorities.
 
 assistant channel=final:
-We can request a 13:30 departure under the half‑day fee window (12:00–14:00). Because today is a peak conference departure, availability is tighter, but we’ll prioritize your request and confirm as soon as housekeeping updates rolls in.
+We can request a 13:30 departure under the half‑day fee window (12:00–14:00). Because today is a peak conference departure, availability is tighter, but I can prioritize your request and confirm once housekeeping updates are available.
 
 user:
 Is luggage hold available if I do need to vacate at noon?

@@ -39,6 +39,6 @@ assistant channel=analysis:
 External live music booking beyond scope; trigger flag.
 
 assistant channel=final:
-What a romantic idea. I’m looping in our events coordinator to explore a vetted musician and timing logistics. We’re on it now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+What a romantic idea. Searching for more information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

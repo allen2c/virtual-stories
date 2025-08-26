@@ -34,6 +34,6 @@ assistant channel=analysis:
 Beyond scope; flag.
 
 assistant channel=final:
-I’m contacting our supplier to obtain the full sensor specification sheet for you. You’ll receive details upon confirmation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Researching comprehensive solutions for the technical specifications. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

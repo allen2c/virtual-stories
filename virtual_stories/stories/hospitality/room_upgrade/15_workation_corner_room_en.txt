@@ -39,6 +39,5 @@ assistant channel=analysis:
 Out of scope; end with flag.
 
 assistant channel=final:
-A coordinated request has been set in motion, and I’ll return with the next update soon. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+This is beyond the scope of the current system details. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

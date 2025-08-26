@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-I see you’re aiming for uninterrupted cooling. This is being reviewed with building safety controls. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+I see you’re aiming for uninterrupted cooling. Reviewing the documentation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

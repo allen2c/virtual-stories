@@ -38,6 +38,6 @@ assistant channel=analysis:
 External vendor coordination beyond scope; invoke flag.
 
 assistant channel=final:
-I’m flagging this discreet photography request to our events team for rapid coordination and approvals. You’ll get an update shortly. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Noted on the discreet photography request. Assessing the available data. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

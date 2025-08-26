@@ -36,6 +36,5 @@ assistant channel=analysis:
 Beyond system; trigger flag.
 
 assistant channel=final:
-我已向相關部門詢問兒童主題備品的可行性與數量，確認後立即提供選項與流程。[ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+這部分超過我們此處能提供的細節。正在彙整相關資料。 [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
