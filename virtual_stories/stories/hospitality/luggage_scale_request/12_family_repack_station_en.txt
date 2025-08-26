@@ -46,5 +46,5 @@ assistant channel=analysis:
 Carrier dimension limits are beyond system context. Use special flag.
 
 assistant channel=final:
-Understood—this is being checked for you right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

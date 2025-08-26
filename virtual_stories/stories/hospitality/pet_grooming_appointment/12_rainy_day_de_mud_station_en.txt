@@ -28,5 +28,4 @@ assistant channel=analysis:
 System notes no chemical shampoos supplied. Then move to special flag for sourcing specifics.
 
 assistant channel=final:
-We set the space and equipment, while guests bring their own products. I’m having suitable options looked into for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+We set the space and equipment, while guests bring their own products. Searching for suitable options now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

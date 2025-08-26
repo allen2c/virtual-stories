@@ -37,5 +37,5 @@ assistant channel=analysis:
 Beyond scope; trigger flag.
 
 assistant channel=final:
-Thanks for the request—this is being advanced for specialized review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

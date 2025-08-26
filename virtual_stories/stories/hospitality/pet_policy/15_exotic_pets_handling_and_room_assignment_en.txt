@@ -39,5 +39,4 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Understood on the permit request. This is being moved to external liaison review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood on the permit request. Investigating requirements. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

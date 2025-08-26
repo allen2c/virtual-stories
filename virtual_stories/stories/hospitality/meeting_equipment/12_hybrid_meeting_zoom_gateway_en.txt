@@ -39,5 +39,5 @@ assistant channel=analysis:
 Out of scope; escalate and end.
 
 assistant channel=final:
-Appreciate the request. The PBX SIP trunk registration for external dialing is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Appreciate the request. Investigating the SIP trunk registration possibilities. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

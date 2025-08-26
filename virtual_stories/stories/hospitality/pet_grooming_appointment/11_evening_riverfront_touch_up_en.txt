@@ -33,5 +33,4 @@ assistant channel=analysis:
 Professional grooming is not on site per system; end with special flag.
 
 assistant channel=final:
-Appreciate you checking—this is being coordinated and verified for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Reviewing available options and verifying details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

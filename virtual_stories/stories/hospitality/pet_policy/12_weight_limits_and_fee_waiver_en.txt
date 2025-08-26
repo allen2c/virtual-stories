@@ -39,5 +39,4 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Understood on the agility event interest. This is being passed along for external coordination. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood on the agility event interest. Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

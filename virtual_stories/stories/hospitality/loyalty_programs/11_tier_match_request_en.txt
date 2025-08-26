@@ -38,6 +38,6 @@ assistant channel=analysis:
 Beyond system context—special flag.
 
 assistant channel=final:
-I’ve queued this cross‑program import request for further handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

@@ -33,6 +33,6 @@ assistant channel=analysis:
 Beyond system context—special flag.
 
 assistant channel=final:
-I’ve put this account consolidation request into processing for follow‑up. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Verifying information. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

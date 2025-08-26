@@ -28,5 +28,5 @@ assistant channel=analysis:
 Prepaying airline fees is beyond system context. Use special flag.
 
 assistant channel=final:
-Noted—we’re having that payment option reviewed for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

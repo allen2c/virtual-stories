@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond typical scope; trigger special flag.
 
 assistant channel=final:
-Appreciate the request—this is being reviewed for appropriate next steps. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Cross-referencing sources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -33,6 +33,6 @@ assistant channel=analysis:
 Beyond policy—special flag.
 
 assistant channel=final:
-I’m advancing this after‑hours override request for further review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

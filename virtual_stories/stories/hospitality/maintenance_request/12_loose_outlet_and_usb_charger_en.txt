@@ -37,5 +37,5 @@ assistant channel=analysis:
 Beyond normal scope/timeline; trigger flag.
 
 assistant channel=final:
-Noted—this is being processed for escalation and documentation review. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Evaluating potential solutions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

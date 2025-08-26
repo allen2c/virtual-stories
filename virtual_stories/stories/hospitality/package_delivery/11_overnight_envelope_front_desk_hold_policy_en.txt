@@ -49,5 +49,5 @@ assistant channel=analysis:
 Exact fee not provided; use special flag.
 
 assistant channel=final:
-I’m aligning the handling fee for a 3 kg parcel with our current schedule. I’ll process this right away. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for asking—checking the precise handling fee for your 3 kg parcel now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

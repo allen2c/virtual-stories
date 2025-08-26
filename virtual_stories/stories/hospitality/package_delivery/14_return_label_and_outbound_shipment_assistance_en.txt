@@ -47,5 +47,5 @@ assistant channel=analysis:
 Out of scope; use special flag.
 
 assistant channel=final:
-I’m coordinating with the carrier to align a pickup window for your outbound box. This is underway now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Researching available carrier pickup windows for your outbound shipment. Processing this inquiry. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -37,6 +37,6 @@ assistant channel=analysis:
 Beyond system redemption scope—special flag.
 
 assistant channel=final:
-I’ve forwarded this partner flight redemption request for further handling. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Checking available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

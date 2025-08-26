@@ -53,5 +53,5 @@ assistant channel=analysis:
 Airline fees aren’t in our system context. End the dialogue using the special flag, with a neutral processing statement.
 
 assistant channel=final:
-Thanks for checking that detail—this is being looked into for you now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Researching available details. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

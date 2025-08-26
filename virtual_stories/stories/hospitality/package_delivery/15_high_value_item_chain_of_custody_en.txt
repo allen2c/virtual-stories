@@ -30,5 +30,5 @@ assistant channel=analysis:
 Staff names disclosure beyond context; use special flag.
 
 assistant channel=final:
-I’m arranging an appropriate acknowledgment while reviewing what details can be shared from our records. This is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Examining available record-sharing options and appropriate documentation. Digging into this question. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

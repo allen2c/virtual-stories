@@ -49,5 +49,5 @@ assistant channel=analysis:
 Log scans and timestamps beyond context; use special flag.
 
 assistant channel=final:
-I’m arranging a receipt confirmation and will align the timestamp details appropriately. This is being processed. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Retrieving information on receipt confirmations and timestamp documentation. Looking into this for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

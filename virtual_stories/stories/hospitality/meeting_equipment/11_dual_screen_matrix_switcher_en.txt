@@ -49,5 +49,5 @@ assistant channel=analysis:
 Beyond inventory scope; escalate and end.
 
 assistant channel=final:
-Thanks for the thoroughness. The request for the device firmware image and change log is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for the thoroughness. Looking into the firmware image and change log availability. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

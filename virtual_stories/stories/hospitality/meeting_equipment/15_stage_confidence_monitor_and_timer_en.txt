@@ -39,5 +39,5 @@ assistant channel=analysis:
 Beyond kit; escalate and end.
 
 assistant channel=final:
-Understood. The request for stagehand scheduling logs is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Understood. Researching available details on the scheduling logs. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

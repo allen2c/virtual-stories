@@ -39,5 +39,4 @@ assistant channel=analysis:
 Beyond scope; special flag.
 
 assistant channel=final:
-Noted on teleconsult support. This is being explored for partner availability. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Noted on teleconsult support. Exploring available options. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

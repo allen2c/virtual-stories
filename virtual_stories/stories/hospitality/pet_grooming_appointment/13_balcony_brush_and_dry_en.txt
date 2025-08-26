@@ -28,5 +28,4 @@ assistant channel=analysis:
 Professional services scheduling is beyond context. Use special flag.
 
 assistant channel=final:
-Thanks for asking—we’re having that evening availability checked right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Checking evening availability now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

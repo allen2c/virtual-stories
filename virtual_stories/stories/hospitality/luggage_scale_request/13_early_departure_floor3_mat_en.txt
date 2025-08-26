@@ -42,5 +42,5 @@ assistant channel=analysis:
 Fee details fall outside system context. Use special flag.
 
 assistant channel=final:
-Thanks for flagging that—we’re routing this inquiry for verification now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Evaluating potential solutions. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

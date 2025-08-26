@@ -28,5 +28,5 @@ assistant channel=analysis:
 Airline elite fee waivers are beyond system context. Use special flag.
 
 assistant channel=final:
-I appreciate you asking—we’re checking that eligibility detail right now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

@@ -40,5 +40,4 @@ assistant channel=analysis:
 Beyond scope; use special flag.
 
 assistant channel=final:
-Thanks for asking about certification support. This is being advanced for community services coordination. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Understood regarding certification support. Reviewing available resources. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

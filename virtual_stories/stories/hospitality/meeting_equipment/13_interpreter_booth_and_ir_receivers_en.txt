@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond kit scope; escalate and end.
 
 assistant channel=final:
-Thanks for checking. The request for RF spectrum scan logs is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Thanks for checking. Gathering relevant data on the spectrum scan logs. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 

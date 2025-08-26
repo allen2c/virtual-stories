@@ -28,5 +28,4 @@ assistant channel=analysis:
 Subjective show-judging advice is beyond context. Use special flag.
 
 assistant channel=final:
-Great question—we’re having that styling guidance reviewed for you. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
-
+Reviewing relevant styling guidance. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]

@@ -33,6 +33,6 @@ assistant channel=analysis:
 Beyond system guarantees—special flag.
 
 assistant channel=final:
-I’m sending this late‑evening checkout request forward for additional consideration. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Analyzing the situation. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
 

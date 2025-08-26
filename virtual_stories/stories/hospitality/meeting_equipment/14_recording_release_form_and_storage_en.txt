@@ -38,5 +38,5 @@ assistant channel=analysis:
 Beyond AV scope; escalate and end.
 
 assistant channel=final:
-Acknowledged. The legal review and redline request for your template is being processed now. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
+Acknowledged. Reviewing available resources for the legal template request. [ACKNOWLEDGE_AND_PASS_TO_BACKGROUND_AGENT]
 
